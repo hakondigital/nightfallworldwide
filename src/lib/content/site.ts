@@ -33,7 +33,7 @@ export const site = {
     bookWhitewall:
       "https://app.acuityscheduling.com/schedule.php?owner=28156026&appointmentType=category:WhiteWall",
     beats: "https://nightfallww.beatstars.com/music/tracks",
-    distroPortal: "https://www.distro.direct/nightfallworldwide/login.php",
+    distroPortal: "https://www.distro.direct/nightfallworldwide/sign_in",
     instagram: "https://www.instagram.com/nightfall___studio/",
     instagramHandle: "@nightfall___studio",
     mikeSnellCredits: "https://credits.muso.ai/profile/d0806c6a-9d09-498b-b2cc-e3b687ab0a5d",
