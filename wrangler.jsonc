@@ -1,0 +1,19 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "nightfall-worldwide",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-03-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  }
+  // When the domain moves off Squarespace, add:
+  // "routes": [
+  //   { "pattern": "nightfallworldwide.com", "custom_domain": true },
+  //   { "pattern": "www.nightfallworldwide.com", "custom_domain": true }
+  // ]
+}
