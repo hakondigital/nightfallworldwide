@@ -73,6 +73,9 @@ export default function Footer() {
             <TLink href="/whitewall#location" className={link}>
               Location
             </TLink>
+            <a href={site.links.whitewallInstagram} target="_blank" rel="noreferrer" className={`${link} flex items-center gap-2`}>
+              <InstagramGlyph /> Instagram
+            </a>
           </Col>
         </div>
         <div className="col-span-12 sm:col-span-6 md:col-span-3 lg:col-span-2">
@@ -81,6 +84,10 @@ export default function Footer() {
               {/* narrow columns wrap after the @, never mid-word */}
               {site.email.admin.split("@")[0]}@<wbr />
               {site.email.admin.split("@")[1]}
+            </a>
+            <a href={`mailto:${site.email.studio}`} className={link}>
+              {site.email.studio.split("@")[0]}@<wbr />
+              {site.email.studio.split("@")[1]}
             </a>
             <a href={site.links.maps} target="_blank" rel="noreferrer" className={link}>
               {site.address.street}, {site.address.suburb}

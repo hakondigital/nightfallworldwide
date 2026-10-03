@@ -14,7 +14,7 @@ export const whitewallPackages: Package[] = [
   { id: "82129271", name: "2 hours", note: "Quick shoot", price: 200, hours: 2 },
   { id: "82129886", name: "Half day — 4 hours", note: "Most booked", price: 400, hours: 4 },
   { id: "82131109", name: "Full day — 8 hours", note: "Campaign day", price: 800, hours: 8 },
-  { id: "82343459", name: "Very full day — 12 hours", note: "Big productions", price: 1000, hours: 12 },
+  { id: "82343459", name: "Day/Night — 12 hours", note: "Big productions", price: 1000, hours: 12 },
 ];
 
 // ── Mixing & mastering engineers ────────────────────────────────
@@ -89,10 +89,10 @@ export const studioRates = {
 
 export const licenceRates = [
   {
-    title: "Track licences",
+    title: "Beat licences",
     rows: [
-      { label: "Exclusive track licence", detail: "Split 50% artist / 50% producer", price: "from $250" },
-      { label: "Exclusive track licence", detail: "Split 95% artist / 5% producer", price: "from $500" },
+      { label: "Premium licence", detail: "Non-exclusive — as listed on BeatStars", price: "$150" },
+      { label: "Exclusive licence", detail: "Exclusive rights — as listed on BeatStars", price: "$300" },
     ],
   },
   {
@@ -349,7 +349,7 @@ export const distribution = {
     { label: "Distribution royalties", value: "20%" },
   ],
   pitchLeadTime:
-    "If you want your project pitched through our playlisting portal, allow a minimum of 6 weeks between your upload + pitching submission and the release date.",
+    "Want your release pitched to playlists? Once you’ve joined, we send you our pitching form — allow a minimum of 6 weeks between your upload and the release date.",
   pitchDisclaimer:
     "We have good relationships with the digital service providers, but we can’t guarantee placements — the final decision rests with Spotify and each platform’s playlist curators.",
 };

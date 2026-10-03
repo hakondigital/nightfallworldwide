@@ -9,9 +9,9 @@ import { team } from "@/lib/content/team";
 import { tracksBy } from "@/lib/content/tracks";
 
 export const metadata: Metadata = {
-  title: "The Team — Rob Rivers, Mike Snell, Mikey Dam, Jarryd James, MEZMURE",
+  title: "The Team — Rob Rivers, MEZMURE, Mike Snell, Jarryd James",
   description:
-    "Meet the Nightfall team: founder Rob Rivers, 3× Grammy-nominated engineer Mike Snell, and songwriter-producers Mikey Dam, Jarryd James and MEZMURE.",
+    "Meet the Nightfall team: founder Rob Rivers, songwriter-producer and A&R MEZMURE, 3× Grammy-nominated engineer Mike Snell, and songwriter-producer Jarryd James.",
   alternates: { canonical: "/team" },
 };
 

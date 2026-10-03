@@ -79,8 +79,8 @@ export default async function ArtistPage(props: PageProps<"/music/[slug]">) {
               {
                 k: "Bookings",
                 v: (
-                  <a className="u-draw" href={mailto(site.email.admin, `Booking enquiry — ${a.name}`)}>
-                    {site.email.admin}
+                  <a className="u-draw" href={mailto(site.email.studio, `Booking enquiry — ${a.name}`)}>
+                    {site.email.studio}
                   </a>
                 ),
               },

@@ -15,8 +15,8 @@ export const metadata: Metadata = {
 };
 
 const LINES = [
-  { k: "General & bookings", v: site.email.admin },
-  { k: "Studio & pitching", v: site.email.studio },
+  { k: "Bookings — sessions, mixes, WhiteWall", v: site.email.studio },
+  { k: "Contracts & general questions", v: site.email.admin },
   { k: "Masters & artwork", v: site.email.distribution },
 ];
 

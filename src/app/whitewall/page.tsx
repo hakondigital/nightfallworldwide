@@ -10,11 +10,12 @@ import { site } from "@/lib/content/site";
 export const metadata: Metadata = {
   title: "WhiteWall — the Gold Coast's tallest whitewall",
   description:
-    "Hire the WhiteWall by Nightfall in Burleigh Heads — a 5.5 m × 7.2 m cyclorama with natural light and a green room. From $100 per hour; 2-hour, half-day, full-day and 12-hour packages.",
+    "Hire the WhiteWall by Nightfall at 3/1 Rothcote Court, Burleigh Heads — a 5.5 m × 7.2 m cyclorama with natural light and a green room. From $100 per hour; 2-hour, half-day, full-day and 12-hour packages.",
   alternates: { canonical: "/whitewall" },
 };
 
-const MAP = `https://www.google.com/maps?q=${encodeURIComponent(`${site.address.street}, ${site.address.suburb} ${site.address.state} ${site.address.postcode}`)}&output=embed`;
+const ADDR = site.whitewallAddress;
+const MAP = `https://www.google.com/maps?q=${encodeURIComponent(`${ADDR.street}, ${ADDR.suburb} ${ADDR.state} ${ADDR.postcode}`)}&output=embed`;
 
 const GALLERY = ["ww-cap", "ww-denim", "ww-tank", "ww-phone", "ww-records", "ww-ball-chair"] as const;
 
@@ -102,15 +103,16 @@ export default function WhiteWallPage() {
             <h2 className="t-l">Find us</h2>
             <Spec
               rows={[
-                { k: "Address", v: `${site.address.street}, ${site.address.suburb} ${site.address.postcode}` },
+                { k: "Address", v: `${ADDR.street}, ${ADDR.suburb} ${ADDR.postcode}` },
                 { k: "Parking", v: "On-site parking available" },
-                { k: "Directions", v: <a className="u-draw" href={site.links.maps} target="_blank" rel="noreferrer">Open in Google Maps ↗</a> },
+                { k: "Directions", v: <a className="u-draw" href={site.links.whitewallMaps} target="_blank" rel="noreferrer">Open in Google Maps ↗</a> },
+                { k: "Instagram", v: <a className="u-draw" href={site.links.whitewallInstagram} target="_blank" rel="noreferrer">{site.links.whitewallInstagramHandle} ↗</a> },
               ]}
             />
             <BookButton tab="whitewall">Book now</BookButton>
           </div>
           <div className="col-span-12 aspect-[4/3] overflow-hidden border border-line md:col-span-8 md:aspect-[16/9]">
-            <iframe src={MAP} title="Map — 1/1 Rothcote Court, Burleigh Heads" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="h-full w-full [filter:grayscale(1)_contrast(1.08)]" />
+            <iframe src={MAP} title="Map — 3/1 Rothcote Court, Burleigh Heads" loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="h-full w-full [filter:grayscale(1)_contrast(1.08)]" />
           </div>
         </div>
       </Section>

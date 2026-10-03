@@ -60,7 +60,7 @@ const jsonLd = {
       url: site.url,
       email: site.email.admin,
       foundingDate: String(site.established),
-      sameAs: [site.links.instagram, site.links.beats],
+      sameAs: [site.links.instagram, site.links.whitewallInstagram, site.links.beats],
       description: site.description,
     },
     {
@@ -79,6 +79,23 @@ const jsonLd = {
         addressCountry: "AU",
       },
       geo: { "@type": "GeoCoordinates", latitude: site.geo.lat, longitude: site.geo.lon },
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": `${site.url}/#whitewall`,
+      name: "WhiteWall by Nightfall",
+      parentOrganization: { "@id": `${site.url}/#org` },
+      url: `${site.url}/whitewall`,
+      email: site.email.studio,
+      sameAs: [site.links.whitewallInstagram],
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: site.whitewallAddress.street,
+        addressLocality: site.whitewallAddress.suburb,
+        addressRegion: site.whitewallAddress.state,
+        postalCode: site.whitewallAddress.postcode,
+        addressCountry: "AU",
+      },
     },
   ],
 };

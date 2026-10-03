@@ -53,13 +53,13 @@ const TASMANIA: [number, number][] = [
 export type City = { name: string; sub?: string; lat: number; lon: number; hq?: boolean };
 
 export const CITIES: City[] = [
-  { name: "Gold Coast", sub: "HQ — Burleigh Heads", lat: -28.09, lon: 153.45, hq: true },
-  { name: "Sydney", sub: "Chantel", lat: -33.87, lon: 151.21 },
-  { name: "Hāwera NZ", sub: "Mikey Dam", lat: -39.59, lon: 174.28 },
-  { name: "London", sub: "ZieZie", lat: 51.51, lon: -0.13 },
-  { name: "Memphis", sub: "NLE Choppa", lat: 35.15, lon: -90.05 },
-  { name: "Miami", sub: "Lil Pump", lat: 25.76, lon: -80.19 },
-  { name: "New York", sub: "MEZMURE", lat: 40.71, lon: -74.01 },
+  { name: "Gold Coast", sub: "HQ · Ribby247", lat: -28.09, lon: 153.45, hq: true },
+  { name: "Sydney", sub: "4ortune · Jords · DON!", lat: -33.87, lon: 151.21 },
+  { name: "Bali", sub: "MEZMURE", lat: -8.65, lon: 115.22 },
+  { name: "Kinshasa, DRC", sub: "Kily Safari", lat: -4.32, lon: 15.31 },
+  { name: "London", sub: "Gorillaz", lat: 51.51, lon: -0.13 },
+  { name: "New York", sub: "Mike Snell", lat: 40.71, lon: -74.01 },
+  { name: "Los Angeles", sub: "Doechii", lat: 34.05, lon: -118.24 },
 ];
 
 const fromLatLon = (lat: number, lon: number): V3 => {

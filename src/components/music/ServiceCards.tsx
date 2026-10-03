@@ -42,7 +42,7 @@ const CARDS: Card[] = [
   {
     code: "04",
     title: "Beats",
-    price: "Licences from A$250",
+    price: "Licences from A$150",
     sub: "Exclusive beats from the Nightfall producers.",
     primary: { label: "Browse beats", action: site.links.beats },
     secondary: { label: "Licence rates", href: "/rates" },

@@ -18,9 +18,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/distribution" },
 };
 
-const STEPS = [
+const STEPS: { n: string; t: string; d: string; href?: string; cta?: string }[] = [
   { n: "01", t: "Join & upload", d: "Register with the label and send your release details. Masters and artwork go to our distribution inbox.", href: "/distribution/upload", cta: "Join the label" },
-  { n: "02", t: "Get pitched", d: "Tell us the story, markets and moods so we can pitch to Spotify and other DSP editors.", href: "/distribution/pitching", cta: "Pitching form" },
+  { n: "02", t: "Get pitched", d: "Once you’re on the label we send you our playlist pitching form. Allow at least 6 weeks before release so we can pitch to Spotify and other DSP editors." },
   { n: "03", t: "Track & get paid", d: "Analytics, releases and royalty payouts via Wise — all in the artist portal.", href: site.links.distroPortal, cta: "Artist login ↗" },
 ];
 
@@ -52,16 +52,30 @@ export default function DistributionPage() {
       <Section theme="day" id="join" className="pad-x scroll-mt-32">
         <Rule left="Join our distribution label" right="Three steps" />
         <Stagger className="mt-6 grid gap-(--gap) md:grid-cols-3">
-          {STEPS.map((s) => (
-            <TLink key={s.n} href={s.href} className="group flex flex-col gap-3 border border-line p-5 transition-colors hover:border-fg">
-              <span className="t-label text-muted">{s.n}</span>
-              <span className="t-m">{s.t}</span>
-              <span className="t-body text-muted">{s.d}</span>
-              <span className="t-wide-s mt-auto flex items-center gap-2 pt-3 text-rec">
-                {s.cta} <Arrow className="transition-transform duration-500 group-hover:rotate-45" />
-              </span>
-            </TLink>
-          ))}
+          {STEPS.map((s) => {
+            const inner = (
+              <>
+                <span className="t-label text-muted">{s.n}</span>
+                <span className="t-m">{s.t}</span>
+                <span className="t-body text-muted">{s.d}</span>
+                {s.cta && (
+                  <span className="t-wide-s mt-auto flex items-center gap-2 pt-3 text-rec">
+                    {s.cta} <Arrow className="transition-transform duration-500 group-hover:rotate-45" />
+                  </span>
+                )}
+              </>
+            );
+            const cls = "group flex flex-col gap-3 border border-line p-5";
+            return s.href ? (
+              <TLink key={s.n} href={s.href} className={`${cls} transition-colors hover:border-fg`}>
+                {inner}
+              </TLink>
+            ) : (
+              <div key={s.n} className={cls}>
+                {inner}
+              </div>
+            );
+          })}
         </Stagger>
         <p className="t-label mt-5 max-w-[80ch] leading-[1.7] text-muted">{distribution.pitchLeadTime}</p>
       </Section>

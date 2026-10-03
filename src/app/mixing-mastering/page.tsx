@@ -77,8 +77,8 @@ export default function MixPage() {
             <h2 className="t-l">Place your order</h2>
             <p className="t-body text-muted">
               Pick your engineer and tell us the size of the job. We&apos;ll confirm the quote, turnaround and a payment link by email — questions to{" "}
-              <a className="u-draw text-fg" href={`mailto:${site.email.admin}`}>
-                {site.email.admin}
+              <a className="u-draw text-fg" href={`mailto:${site.email.studio}`}>
+                {site.email.studio}
               </a>
               .
             </p>

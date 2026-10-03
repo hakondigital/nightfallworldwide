@@ -2,11 +2,13 @@ import { mailto } from "@/lib/content/site";
 
 // Formspree endpoints (e.g. https://formspree.io/f/xxxxxx). Leave unset and
 // forms fall back to opening a pre-filled email to the right inbox.
+const ENQUIRY = process.env.NEXT_PUBLIC_FORMSPREE_ENQUIRY; // admin@ — questions, contracts, briefs
+const STUDIO = process.env.NEXT_PUBLIC_FORMSPREE_STUDIO ?? ENQUIRY; // studio@ — bookings
 export const endpoints = {
-  enquiry: process.env.NEXT_PUBLIC_FORMSPREE_ENQUIRY,
-  mix: process.env.NEXT_PUBLIC_FORMSPREE_MIX ?? process.env.NEXT_PUBLIC_FORMSPREE_ENQUIRY,
+  enquiry: ENQUIRY,
+  studio: STUDIO,
+  mix: process.env.NEXT_PUBLIC_FORMSPREE_MIX ?? STUDIO,
   upload: process.env.NEXT_PUBLIC_FORMSPREE_UPLOAD,
-  pitching: process.env.NEXT_PUBLIC_FORMSPREE_PITCHING,
 } as const;
 
 export type SubmitResult = { via: "api" | "mail" };

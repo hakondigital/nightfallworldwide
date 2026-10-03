@@ -95,8 +95,8 @@ export const artists: Artist[] = [
   {
     slug: "chantel",
     name: "Chantel",
-    image: "artist-chantel",
-    gallery: ["artist-chantel-red", "chantel-polaroid", "cover-not-fair"],
+    image: "artist-chantel-red",
+    gallery: ["chantel-polaroid", "cover-not-fair"],
     spotify: sp("3qZ9DxnCiqZ0WPrypZFhkx"),
     tier: "collective",
     origin: "Sydney, AU",

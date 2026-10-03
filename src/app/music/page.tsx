@@ -62,7 +62,7 @@ export default function MusicPage() {
 
       {/* artists */}
       <Section theme="day" id="artists" className="pad-x scroll-mt-32 pt-[clamp(60px,8vw,110px)]">
-        <Rule left="Artists" right={`${collective.length} in the collective · ${globalArtists.length} global collaborators`} />
+        <Rule left="Artists" right={<TLink href="/artists" className="u-draw">All artists →</TLink>} />
         <Rail cols={8} className="mt-6 gap-y-8">
           {globalArtists.map((a) => (
             <ArtistCard key={a.slug} artist={a} note={`Worked with · ${a.origin}`} />
@@ -91,7 +91,7 @@ export default function MusicPage() {
       {/* team */}
       <Section theme="day" className="pad-x py-[clamp(60px,8vw,110px)]">
         <Rule left="The team" right={<TLink href="/team" className="u-draw">Meet the team →</TLink>} />
-        <Rail cols={5} className="mt-6">
+        <Rail cols={4} className="mt-6">
           {team.map((m) => (
             <TLink key={m.slug} href={`/team#${m.slug}`} className="group flex flex-col gap-2">
               <Media name={m.portrait} alt={`${m.name} — ${m.role}`} sizes="(min-width: 1024px) 18vw, 40vw" className="aspect-[4/5] w-full bg-panel" />

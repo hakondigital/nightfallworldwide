@@ -61,6 +61,18 @@ export const team: Member[] = [
     clients: brandClients.filter((c) => c !== "WWE"),
   },
   {
+    slug: "mezmure",
+    name: "MEZMURE",
+    role: "Songwriter / Producer / A&R",
+    portrait: "team-mezmure",
+    alt: "mezmure-hat",
+    headline: "His real first name means ‘music’ in ancient Amharic.",
+    bio: [
+      "MEZMURE (F.K.A. Pharaoh SWAMi) arrived in New Zealand with his family as a refugee from Ethiopia — an outrageously charismatic artist whose real first name means ‘music’ in ancient Amharic.",
+      "Synaesthesia coupled with a love for nature birthed his beautiful, raw and ethnic sound. Coupled with his ability to hear melodies and understand modern song structures, A&R was the natural progression from his artistry into the world of artist development.",
+    ],
+  },
+  {
     slug: "mike-snell",
     name: "Mike Snell",
     role: "Producer / Engineer",
@@ -78,18 +90,6 @@ export const team: Member[] = [
     link: { label: "Full credits on Muso.ai", href: "https://credits.muso.ai/profile/d0806c6a-9d09-498b-b2cc-e3b687ab0a5d" },
   },
   {
-    slug: "mikey-dam",
-    name: "Mikey Dam",
-    role: "Songwriter / Producer",
-    portrait: "team-mikey-dam",
-    alt: "artist-mikey-dam",
-    headline: "Rich R&B with a hip-hop cadence.",
-    bio: [
-      "Mikey Dam is a firm believer in fated flukes. The Hāwera, New Zealand-born singer-songwriter grew up with rapper aspirations before accidentally finding his singing voice during a chance studio session.",
-      "Now Mikey crafts rich R&B music while still carrying a hip-hop cadence in his magnetic delivery. He’s spent years carefully carving out his niche, and now he’s ready to share it with the world.",
-    ],
-  },
-  {
     slug: "jarryd-james",
     name: "Jarryd James",
     role: "Songwriter / Producer",
@@ -99,18 +99,6 @@ export const team: Member[] = [
     bio: [
       "Jarryd James, born in Brisbane, has featured in the ARIA charts numerous times and worked with international producers such as Joel Little, Clams Casino, FrancisGotHeat, M-Phazes and more.",
       "With millions of streams and certified platinum records, his songwriting and production style is gaining momentum at Nightfall.",
-    ],
-  },
-  {
-    slug: "mezmure",
-    name: "MEZMURE",
-    role: "Songwriter / Producer / A&R",
-    portrait: "team-mezmure",
-    alt: "mezmure-hat",
-    headline: "His real first name means ‘music’ in ancient Amharic.",
-    bio: [
-      "MEZMURE (F.K.A. Pharaoh SWAMi) arrived in New Zealand with his family as a refugee from Ethiopia — an outrageously charismatic artist whose real first name means ‘music’ in ancient Amharic.",
-      "Synaesthesia coupled with a love for nature birthed his beautiful, raw and ethnic sound. Coupled with his ability to hear melodies and understand modern song structures, A&R was the natural progression from his artistry into the world of artist development.",
     ],
   },
 ];

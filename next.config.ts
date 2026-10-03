@@ -9,7 +9,7 @@ const legacy: [string, string][] = [
   ["/advertisingandfilm", "/advertising-film"],
   ["/thearchive", "/distribution"],
   ["/uploadform", "/distribution/upload"],
-  ["/pitching", "/distribution/pitching"],
+  ["/pitching", "/distribution"],
   ["/prerelease", "/music/kily-safari"],
   ["/mezmure", "/music/mezmure"],
   ["/mezmure-1", "/music/mezmure"],

@@ -157,8 +157,8 @@ export default function BookingProvider({ children }: { children: React.ReactNod
           <span>
             {site.address.street}, {site.address.suburb} {site.address.state} {site.address.postcode}
           </span>
-          <a className="u-draw" href={`mailto:${site.email.admin}`}>
-            {site.email.admin}
+          <a className="u-draw" href={`mailto:${site.email.studio}`}>
+            {site.email.studio}
           </a>
         </div>
       </div>

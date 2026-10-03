@@ -68,7 +68,8 @@ Reference images by file name (without extension), e.g. `<Media name="studio-con
 
 - **Bookings** — Acuity. Studio and WhiteWall packages open their own calendar inside the booking drawer (`schedule.php?owner=28156026&appointmentType=<id>`).
 - **Mix orders** — the Mix & master tab and `/mixing-mastering#order` collect engineer, package, stems, tracks and contact details with a live estimate. No payment is taken; the studio confirms and sends a payment link.
-- **Forms** — enquiry, mix order, release upload and playlist pitching. Set Formspree endpoints in `.env` (see `.env.example`) to receive them by email; without them, each form opens a pre-filled email to the right inbox.
+- **Forms** — enquiry, mix order and release upload. Set Formspree endpoints in `.env` (see `.env.example`) to receive them by email; without them, each form opens a pre-filled email to the right inbox. Playlist pitching has no form on the site — the label sends artists its own.
+- **Email routing** — bookings (sessions, mixes, WhiteWall) go to studio@; contracts and general questions to admin@; masters and artwork to distribution@. The enquiry form picks the inbox from the chosen topic.
 - **Music previews** — Spotify iFrame API. Clicking any sleeve or tracklist row plays in the dock (30-second previews logged out, full tracks for signed-in Spotify users).
 - **Distribution portal** — links out to distro.direct (it can't be embedded on other domains).
 - **Payments** — add Stripe Payment Links (or similar) per deal variant in `checkoutLinks` in `services.ts`; until then, "Order" opens the mix order form.

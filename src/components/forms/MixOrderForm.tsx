@@ -10,6 +10,8 @@ import { cn } from "@/lib/utils";
 export const PACKAGES = ["Mix & master", "2 for 1 deal", "Artist Spotlight session"] as const;
 type Pkg = (typeof PACKAGES)[number];
 const STEMS = ["1–12 stems", "13–24 stems"];
+/** Bigger sessions cost a little more per track — the same step as the 2 for 1 variants. */
+const STEMS_EXTRA = 100;
 
 function estimate(engineerSlug: string, pkg: Pkg, stems: string, tracks: number) {
   const eng = engineers.find((e) => e.slug === engineerSlug);
@@ -18,9 +20,9 @@ function estimate(engineerSlug: string, pkg: Pkg, stems: string, tracks: number)
   if (pkg === "2 for 1 deal") {
     const deal = products.find((p) => p.slug === "2-for-1");
     const v = deal?.variants.find((x) => x.key === `${eng.name}|${stems}`);
-    return v ? v.price * Math.ceil(tracks / 2) : null;
+    return v ? v.price * (tracks / 2) : null; // sold in pairs: one paid, one free
   }
-  return eng.perTrack * tracks;
+  return (eng.perTrack + (stems === STEMS[1] ? STEMS_EXTRA : 0)) * tracks;
 }
 
 /** Order a mix: pick the engineer, tell us the size of the job, get an estimate. */
@@ -35,6 +37,13 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
   const eng = engineers.find((e) => e.slug === engineer) ?? engineers[0];
   const est = estimate(engineer, pkg, stems, tracks);
   const spotlight = pkg === "Artist Spotlight session";
+  const deal = pkg === "2 for 1 deal";
+  const step = deal ? 2 : 1;
+  const choosePkg = (p: Pkg) => {
+    setPkg(p);
+    // the 2 for 1 deal comes in pairs — one paid, one free
+    if (p === "2 for 1 deal") setTracks((t) => Math.max(2, Math.ceil(t / 2) * 2));
+  };
 
   const onSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -55,7 +64,7 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
     setStatus("sending");
     try {
       const r = await submitForm(endpoints.mix, data, {
-        to: site.email.admin,
+        to: site.email.studio,
         subject: `Mix & master order — ${eng.name}`,
         labels: {
           engineer: "Engineer",
@@ -88,7 +97,7 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
         <p className="t-body max-w-md text-muted">
           {status === "done"
             ? "Thanks — we’ll confirm your quote, turnaround and payment details by email."
-            : `We’ve drafted your order email — just press send. If nothing opened, write to ${site.email.admin}.`}
+            : `We’ve drafted your order email — just press send. If nothing opened, write to ${site.email.studio}.`}
         </p>
         <button className="t-label u-draw self-start" onClick={() => setStatus("idle")}>
           Place another order
@@ -116,7 +125,7 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
         <legend className="t-label mb-3 text-muted">Package</legend>
         <div className="flex flex-wrap gap-2">
           {PACKAGES.map((p) => (
-            <button key={p} type="button" aria-pressed={pkg === p} onClick={() => setPkg(p)} className={chip(pkg === p)}>
+            <button key={p} type="button" aria-pressed={pkg === p} onClick={() => choosePkg(p)} className={chip(pkg === p)}>
               {p}
             </button>
           ))}
@@ -134,20 +143,26 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
                 </button>
               ))}
             </div>
+            <p className="t-label mt-2 text-muted">13–24 stems: +{aud(STEMS_EXTRA)} per track</p>
           </fieldset>
           <fieldset>
             <legend className="t-label mb-3 text-muted">Tracks</legend>
             <div className="flex items-center gap-2">
-              <button type="button" onClick={() => setTracks((t) => Math.max(1, t - 1))} className={chip(false)} aria-label="Fewer tracks">
+              <button type="button" onClick={() => setTracks((t) => Math.max(step, t - step))} className={chip(false)} aria-label="Fewer tracks">
                 −
               </button>
               <span className="t-price w-10 text-center text-xl" aria-live="polite">
                 {tracks}
               </span>
-              <button type="button" onClick={() => setTracks((t) => Math.min(30, t + 1))} className={chip(false)} aria-label="More tracks">
+              <button type="button" onClick={() => setTracks((t) => Math.min(30, t + step))} className={chip(false)} aria-label="More tracks">
                 +
               </button>
             </div>
+            {deal && (
+              <p className="t-label mt-2 text-muted">
+                {tracks / 2} paid · {tracks / 2} free
+              </p>
+            )}
           </fieldset>
         </div>
       )}

@@ -9,9 +9,14 @@ import { cn } from "@/lib/utils";
 
 type Props = { defaultTopic?: string; topics?: string[]; className?: string; compact?: boolean };
 
+/** These are bookings, so they go to the studio inbox; the rest go to admin. */
+const BOOKING_TOPICS = ["Studio session", "Mix & master", "WhiteWall"];
+
 export default function EnquiryForm({ defaultTopic, topics, className, compact }: Props) {
   const list = topics ?? (defaultTopic && filmTopics.includes(defaultTopic) ? filmTopics : enquiryTopics);
   const [topic, setTopic] = useState(defaultTopic ?? list[0]);
+  const booking = BOOKING_TOPICS.includes(topic);
+  const to = booking ? site.email.studio : site.email.admin;
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "mail" | "error">("idle");
   const [error, setError] = useState("");
 
@@ -27,8 +32,8 @@ export default function EnquiryForm({ defaultTopic, topics, className, compact }
     };
     setStatus("sending");
     try {
-      const r = await submitForm(endpoints.enquiry, data, {
-        to: site.email.admin,
+      const r = await submitForm(booking ? endpoints.studio : endpoints.enquiry, data, {
+        to,
         subject: `Website enquiry — ${topic}`,
         labels: { topic: "Topic", name: "Name", email: "Email", phone: "Phone", message: "Message" },
       });
@@ -50,7 +55,7 @@ export default function EnquiryForm({ defaultTopic, topics, className, compact }
         <p className="t-body max-w-md text-muted">
           {status === "done"
             ? "Thanks — the team will get back to you shortly."
-            : `We’ve drafted the email for you. If nothing opened, write to ${site.email.admin}.`}
+            : `We’ve drafted the email for you. If nothing opened, write to ${to}.`}
         </p>
         <button className="t-label u-draw self-start" onClick={() => setStatus("idle")}>
           Send another

@@ -9,7 +9,7 @@ import { site } from "@/lib/content/site";
 export const metadata: Metadata = {
   title: "Rates & licences 2025/26",
   description:
-    "Nightfall Studios price list 2025/26: studio dry hire from $319, engineering from $220, exclusive track licences from $250, mixing & mastering from $300, Mike Snell mix & master $1,000, distribution at 20%.",
+    "Nightfall Studios price list 2025/26: studio dry hire from $319, engineering from $220, beat licences from $150, mixing & mastering from $300, Mike Snell mix & master $1,000, distribution at 20%.",
   alternates: { canonical: "/rates" },
 };
 

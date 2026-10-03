@@ -18,9 +18,13 @@ export const site = {
     country: "Australia",
     note: "On-site parking available.",
   },
+  // The WhiteWall has its own unit in the same complex.
+  whitewallAddress: { street: "3/1 Rothcote Court", suburb: "Burleigh Heads", state: "QLD", postcode: "4220" },
   // Burleigh Heads — used for the live clock + nightfall countdown.
   geo: { lat: -28.0906, lon: 153.4498, tz: "Australia/Brisbane", label: "28.09°S 153.45°E" },
 
+  // studio@ takes bookings (sessions, mixes, WhiteWall); admin@ takes
+  // questions about contracts and how things work.
   email: {
     admin: "admin@nightfallworldwide.com",
     studio: "studio@nightfallworldwide.com",
@@ -36,6 +40,9 @@ export const site = {
     distroPortal: "https://www.distro.direct/nightfallworldwide/sign_in",
     instagram: "https://www.instagram.com/nightfall___studio/",
     instagramHandle: "@nightfall___studio",
+    whitewallInstagram: "https://www.instagram.com/white_____wall/",
+    whitewallInstagramHandle: "@white_____wall",
+    whitewallMaps: "https://www.google.com/maps/search/?api=1&query=3%2F1+Rothcote+Court+Burleigh+Heads+QLD+4220",
     mikeSnellCredits: "https://credits.muso.ai/profile/d0806c6a-9d09-498b-b2cc-e3b687ab0a5d",
     maps: "https://www.google.com/maps/search/?api=1&query=1%2F1+Rothcote+Court+Burleigh+Heads+QLD+4220",
   },
@@ -81,13 +88,13 @@ export const musicNav: NavItem[] = [
   { label: "Mixing & Mastering", href: "/mixing-mastering", code: "01.1" },
   { label: "Studio", href: "/studio", code: "01.2" },
   { label: "Distribution", href: "/distribution", code: "01.3" },
-  { label: "Artists", href: "/music#artists", code: "01.4" },
+  { label: "Artists", href: "/artists", code: "01.4" },
   { label: "Team", href: "/team", code: "01.5" },
   { label: "Rates", href: "/rates", code: "01.6" },
   { label: "Beats", href: site.links.beats, code: "01.7", external: true },
 ];
 
-const MUSIC_PATHS = ["/music", "/mixing-mastering", "/studio", "/distribution", "/team", "/rates"];
+const MUSIC_PATHS = ["/music", "/mixing-mastering", "/studio", "/distribution", "/artists", "/team", "/rates"];
 export const isMusicPath = (path: string) => MUSIC_PATHS.some((p) => path === p || path.startsWith(p + "/"));
 
 /** Which business a route belongs to — drives the header's call to action. */
@@ -99,5 +106,4 @@ export const allRoutes: NavItem[] = [
   ...primaryNav,
   ...musicNav.filter((n) => !n.external),
   { label: "Upload a release", href: "/distribution/upload", code: "01.3" },
-  { label: "Playlist pitching", href: "/distribution/pitching", code: "01.3" },
 ];
