@@ -54,7 +54,7 @@ export type City = { name: string; sub?: string; lat: number; lon: number; hq?: 
 
 export const CITIES: City[] = [
   { name: "Gold Coast", sub: "HQ · Ribby247", lat: -28.09, lon: 153.45, hq: true },
-  { name: "Sydney", sub: "4ortune · Jords · DON!", lat: -33.87, lon: 151.21 },
+  { name: "Sydney", sub: "4orttune · Jords · DON!", lat: -33.87, lon: 151.21 },
   { name: "Bali", sub: "MEZMURE", lat: -8.65, lon: 115.22 },
   { name: "Kinshasa, DRC", sub: "Kily Safari", lat: -4.32, lon: 15.31 },
   { name: "London", sub: "Gorillaz", lat: 51.51, lon: -0.13 },

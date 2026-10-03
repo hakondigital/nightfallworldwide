@@ -50,7 +50,7 @@ The landing page (`/`) is only the globe, the wordmark and the three doors into 
 ### Common edits
 
 - **Change a price or package** — `studioPackages` / `whitewallPackages` in `services.ts`. Each `id` is the Acuity appointment type, so its **Book** button opens that package's calendar directly.
-- **Add or edit a mix engineer** — `engineers` in `services.ts`. `perTrack` drives the estimate in the order form; leave it out for "price on request". DON!'s photo, credits and rate are still placeholders (marked `TODO(client)`).
+- **Add or edit a mix engineer** — `engineers` in `services.ts`. `perTrack` drives the estimate in the order form; leave it out for "price on request". DON!'s per-track rate is still to confirm (marked `TODO(client)`).
 - **Artists** — `artists.ts`. `page: true` gives an artist a profile at `/music/<slug>`; everyone else links to Spotify.
 
 ## Images & video

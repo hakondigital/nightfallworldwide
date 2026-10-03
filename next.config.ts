@@ -13,7 +13,7 @@ const legacy: [string, string][] = [
   ["/prerelease", "/music/kily-safari"],
   ["/mezmure", "/music/mezmure"],
   ["/mezmure-1", "/music/mezmure"],
-  ["/ashleygall", "/music/ashley-gall"],
+  ["/ashleygall", "/artists"],
   ["/chantel", "/music/chantel"],
   ["/whatwedo", "/"],
   ["/home-1", "/"],

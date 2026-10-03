@@ -13,7 +13,7 @@ import { site } from "@/lib/content/site";
 export const metadata: Metadata = {
   title: "Mixing & Mastering — Grammy-nominated engineers",
   description:
-    "Book mixing and mastering with the Nightfall Collective, 3× Grammy-nominated engineer Mike Snell or Grammy-nominated DON!. From A$300 per track, 3 revisions included, ~7 business day turnaround.",
+    "Book mixing and mastering with the Nightfall Collective, 3× Grammy-nominated engineer Mike Snell or Sydney producer-engineer DON! (Don Sahand). From A$300 per track, 3 revisions included, ~7 business day turnaround.",
   alternates: { canonical: "/mixing-mastering" },
 };
 
@@ -33,7 +33,7 @@ export default function MixPage() {
         kicker="Mixing & Mastering"
         meta="Hip-hop · R&B · EDM · Pop"
         title="Mixing & Mastering"
-        lede="Radio-ready mixing and mastering — from our in-house Nightfall Collective to Grammy-nominated engineers like Mike Snell and DON!."
+        lede="Radio-ready mixing and mastering — from our in-house Nightfall Collective to 3× Grammy-nominated Mike Snell and Sydney producer-engineer DON!."
         aside={
           <HeroAction label="From" value="A$300 per track" note="3 revisions included · about 7 business days">
             <BookButton tab="mix">Book a mix</BookButton>

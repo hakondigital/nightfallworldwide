@@ -18,7 +18,7 @@ import { track, tracks } from "@/lib/content/tracks";
 export const metadata: Metadata = {
   title: "Music — mixing, studio, distribution & artists",
   description:
-    "Book mixing & mastering (including 3× Grammy-nominated Mike Snell), studio sessions in Burleigh Heads, and distribution with Nightfall — home of MEZMURE, Kily Safari, Chantel, Jarryd James, Mikey Dam and Ashley Gall.",
+    "Book mixing & mastering (including 3× Grammy-nominated Mike Snell), studio sessions in Burleigh Heads, and distribution with Nightfall — home of MEZMURE, Kily Safari, Chantel, Jarryd James and 4orttune.",
   alternates: { canonical: "/music" },
 };
 
@@ -26,7 +26,7 @@ const LATEST = [
   "5xLGhZO2Dw7NHigfRm0hZa", // WOZA
   "27pJRayIsaKpjOkenEzYt9", // Hold Me While I Disco
   "6EgdS5hDoklBcbJZl2TRIp", // Paperweight
-  "2NqNCkdTRr20q2jiU53Oos", // Cant Wait
+  "6IvxSwRsjz0jccQg2pd5pz", // Seasons
   "6gCABr21D9dn0EGgqCLISM", // GANJA
   "756EcgXa5cY8aaSkWNfkW8", // Shrooms
 ].map(track);

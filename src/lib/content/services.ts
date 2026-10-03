@@ -1,4 +1,5 @@
 import type { MediaName } from "@/lib/media.generated";
+import { site } from "./site";
 
 // ── Bookable packages (live in Acuity — ids open that package's calendar) ──
 export type Package = { id: string; name: string; note: string; price: number; hours: number };
@@ -26,6 +27,7 @@ export type Engineer = {
   price: string;
   perTrack?: number; // AUD, for the order estimate
   image?: MediaName;
+  link?: { label: string; href: string };
 };
 
 export const engineers: Engineer[] = [
@@ -46,14 +48,17 @@ export const engineers: Engineer[] = [
     price: "A$1,000 per track",
     perTrack: 1000,
     image: "team-mike-snell",
+    link: { label: "Credits on Muso.ai", href: site.links.mikeSnellCredits },
   },
   {
-    // TODO(client): add DON!'s photo, credits and rate.
+    // TODO(client): confirm DON!'s per-track rate.
     slug: "don",
     name: "DON!",
-    badge: "Grammy-nominated",
-    credit: "Grammy-nominated engineer. Credits and availability on request.",
+    badge: "Sydney · produced for Grammy-winner Daya",
+    credit: "Don Sahand — Sydney producer, mixing and mastering engineer. Credits include Daya, Jords, 4orttune, Kobie Dee, Ta-ku, Young Franco and Cult Shφtta.",
     price: "Price on request",
+    image: "team-don",
+    link: { label: "Work & credits", href: "https://www.donsahand.com/" },
   },
 ];
 

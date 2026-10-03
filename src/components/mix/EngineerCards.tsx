@@ -30,6 +30,11 @@ export default function EngineerCards() {
             <span className="t-label hidden text-rec md:block">{e.badge}</span>
             <h3 className="t-m hidden md:block">{e.name}</h3>
             <p className="t-body text-muted">{e.credit}</p>
+            {e.link && (
+              <a href={e.link.href} target="_blank" rel="noreferrer" className="t-label u-draw self-start">
+                {e.link.label} ↗
+              </a>
+            )}
             <p className="t-price mt-auto hidden pt-2 text-[1.35rem] md:block">{e.price}</p>
             <button
               onClick={() => booking.open("mix", { engineer: e.slug })}

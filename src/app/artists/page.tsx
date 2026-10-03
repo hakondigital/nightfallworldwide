@@ -12,7 +12,7 @@ import { site } from "@/lib/content/site";
 export const metadata: Metadata = {
   title: "Artists — the Nightfall collective",
   description:
-    "Every artist in the Nightfall Worldwide collective — MEZMURE, Kily Safari, Chantel, Jarryd James, Ashley Gall and more — plus the global artists Nightfall has worked with. Profiles and Spotify links.",
+    "Every artist in the Nightfall Worldwide collective — MEZMURE, Kily Safari, Chantel, Jarryd James, 4orttune and more — plus the global artists Nightfall has worked with. Profiles and Spotify links.",
   alternates: { canonical: "/artists" },
 };
 
