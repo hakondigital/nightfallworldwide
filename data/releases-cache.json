@@ -1,0 +1,3065 @@
+{
+ "albums": {
+  "509395601": {
+   "id": 509395601,
+   "title": "NYASH",
+   "artists": [
+    "KILY SAFARI",
+    "Mezmure"
+   ],
+   "artistId": 242144041,
+   "releaseDate": "2023-11-24",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360098815209",
+   "link": "https://www.deezer.com/album/509395601",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/2a8c72de9ac2d7fd59f4acf025634fd5/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "510256381": {
+   "id": 510256381,
+   "title": "AYEW",
+   "artists": [
+    "Mezmure"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2023-11-24",
+   "recordType": "single",
+   "tracks": 3,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360098818880",
+   "link": "https://www.deezer.com/album/510256381",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/885794adc8804f564585671186b05bc7/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "510256441": {
+   "id": 510256441,
+   "title": "Storm",
+   "artists": [
+    "MIKESN3L",
+    "Kaylan Arnold"
+   ],
+   "artistId": 242522391,
+   "releaseDate": "2023-11-24",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360098818910",
+   "link": "https://www.deezer.com/album/510256441",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/62f3c279f9a2cb08b26627f707405a72/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "510786601": {
+   "id": 510786601,
+   "title": "AGWA",
+   "artists": [
+    "Akua",
+    "Mezmure"
+   ],
+   "artistId": 4730919,
+   "releaseDate": "2023-11-24",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360098815803",
+   "link": "https://www.deezer.com/album/510786601",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/fd42de66468224ea2bffa6d91aa22c75/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "515079732": {
+   "id": 515079732,
+   "title": "African Titan",
+   "artists": [
+    "KILY SAFARI"
+   ],
+   "artistId": 242144041,
+   "releaseDate": "2023-08-18",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360098849198",
+   "link": "https://www.deezer.com/album/515079732",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/052bd66ebcc7d582ab99520b7a5fdbea/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "519736962": {
+   "id": 519736962,
+   "title": "Dr. Xmas",
+   "artists": [
+    "Travis Peach",
+    "MIKESN3L"
+   ],
+   "artistId": 12276210,
+   "releaseDate": "2023-12-22",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360098880603",
+   "link": "https://www.deezer.com/album/519736962",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/f685326037e5f9b13e7b29726ea93096/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "533159192": {
+   "id": 533159192,
+   "title": "HigherLove432",
+   "artists": [
+    "Akua"
+   ],
+   "artistId": 4730919,
+   "releaseDate": "2024-01-19",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360098961111",
+   "link": "https://www.deezer.com/album/533159192",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0eee40b1e7a442506dbed47d024992eb/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "538039142": {
+   "id": 538039142,
+   "title": "Flights To Japan",
+   "artists": [
+    "Fujino"
+   ],
+   "artistId": 214125977,
+   "releaseDate": "2024-02-16",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360098993402",
+   "link": "https://www.deezer.com/album/538039142",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/bd1ff787ce787695392bf6fd8a6c909a/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "538039192": {
+   "id": 538039192,
+   "title": "Desire",
+   "artists": [
+    "Scopes"
+   ],
+   "artistId": 1443539,
+   "releaseDate": "2024-01-26",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360098998780",
+   "link": "https://www.deezer.com/album/538039192",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/3e210f5b48ab362cdeced91c7cc1080e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "538039662": {
+   "id": 538039662,
+   "title": "Seasons",
+   "artists": [
+    "Scopes"
+   ],
+   "artistId": 1443539,
+   "releaseDate": "2024-02-16",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360099003506",
+   "link": "https://www.deezer.com/album/538039662",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0a0d9497da6566fdcd38daf7f0edce86/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "540106602": {
+   "id": 540106602,
+   "title": "EarnMe2Slide",
+   "artists": [
+    "Fujino"
+   ],
+   "artistId": 214125977,
+   "releaseDate": "2024-02-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932010876",
+   "link": "https://www.deezer.com/album/540106602",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/90905ff02550e849527b57d68f470d99/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "542464032": {
+   "id": 542464032,
+   "title": "Crab Phones",
+   "artists": [
+    "Fujino"
+   ],
+   "artistId": 214125977,
+   "releaseDate": "2024-02-27",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932028956",
+   "link": "https://www.deezer.com/album/542464032",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/2a7c3dfe9e0b7b0c865b0d211a65b4d1/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "542464062": {
+   "id": 542464062,
+   "title": "Not My Fault",
+   "artists": [
+    "Fujino"
+   ],
+   "artistId": 214125977,
+   "releaseDate": "2024-03-08",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932029014",
+   "link": "https://www.deezer.com/album/542464062",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/b13102f4e6c0d06f9ac685fbb1513e0e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "550910262": {
+   "id": 550910262,
+   "title": "Shrooms",
+   "artists": [
+    "Akua"
+   ],
+   "artistId": 4730919,
+   "releaseDate": "2024-03-01",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932085942",
+   "link": "https://www.deezer.com/album/550910262",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/36baa0299400e62f6dcf185b4acbfbba/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "560206892": {
+   "id": 560206892,
+   "title": "The Art of Seduction",
+   "artists": [
+    "Nevrr49"
+   ],
+   "artistId": 213770167,
+   "releaseDate": "2024-03-22",
+   "recordType": "album",
+   "tracks": 8,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932148692",
+   "link": "https://www.deezer.com/album/560206892",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/9efa7d148e6e59f4fa34f40c630a0c68/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "569630951": {
+   "id": 569630951,
+   "title": "Disappointment",
+   "artists": [
+    "Fujino"
+   ],
+   "artistId": 214125977,
+   "releaseDate": "2024-04-06",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932209089",
+   "link": "https://www.deezer.com/album/569630951",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/a90464d346bb325e07e7becabb8ffb16/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "578064531": {
+   "id": 578064531,
+   "title": "Away",
+   "artists": [
+    "Lowkey",
+    "Martinsfeelz"
+   ],
+   "artistId": 172223,
+   "releaseDate": "2024-04-25",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932267263",
+   "link": "https://www.deezer.com/album/578064531",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/8c15ff2ed0df557da497e24730a9de71/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "586046822": {
+   "id": 586046822,
+   "title": "Everything Sparko",
+   "artists": [
+    "Lowkey",
+    "Khi'leb"
+   ],
+   "artistId": 172223,
+   "releaseDate": "2024-06-14",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932320999",
+   "link": "https://www.deezer.com/album/586046822",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/c8c5e4d4a1f4f2133ecc43a83ca6bd7f/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "587907372": {
+   "id": 587907372,
+   "title": "Wide & Narrow",
+   "artists": [
+    "SUNZA CHIEF"
+   ],
+   "artistId": 266029032,
+   "releaseDate": "2024-05-17",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932337690",
+   "link": "https://www.deezer.com/album/587907372",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/7af21d98e919d85b29f2a285b6ace669/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "594644702": {
+   "id": 594644702,
+   "title": "Where I'm Going",
+   "artists": [
+    "Fujino",
+    "Kote$"
+   ],
+   "artistId": 214125977,
+   "releaseDate": "2024-06-21",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932382010",
+   "link": "https://www.deezer.com/album/594644702",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/e8b8b8be0a7f7e97931104d594becc1a/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "594644712": {
+   "id": 594644712,
+   "title": "Flights To LA",
+   "artists": [
+    "Fujino"
+   ],
+   "artistId": 214125977,
+   "releaseDate": "2024-06-28",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932382072",
+   "link": "https://www.deezer.com/album/594644712",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/7ae8dcd6e36cb1306f20009f0832aa08/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "594682182": {
+   "id": 594682182,
+   "title": "Colorado",
+   "artists": [
+    "Fujino"
+   ],
+   "artistId": 214125977,
+   "releaseDate": "2024-07-05",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932385875",
+   "link": "https://www.deezer.com/album/594682182",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/b461295a0013f3471a3c57364457aac0/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "598436472": {
+   "id": 598436472,
+   "title": "Back In The Groove",
+   "artists": [
+    "SUNZA CHIEF"
+   ],
+   "artistId": 266029032,
+   "releaseDate": "2024-06-07",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932409793",
+   "link": "https://www.deezer.com/album/598436472",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/4b91ebfc71a0395aa74609867dcf0dbc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "600562722": {
+   "id": 600562722,
+   "title": "Ride With Me",
+   "artists": [
+    "Scopes"
+   ],
+   "artistId": 1443539,
+   "releaseDate": "2024-07-19",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932443186",
+   "link": "https://www.deezer.com/album/600562722",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/299602e0ca8df2fe56dec599abbd3aa3/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "601649372": {
+   "id": 601649372,
+   "title": "POINT OF NO RETURN: FINAL CHAPTER",
+   "artists": [
+    "Nevrr49"
+   ],
+   "artistId": 213770167,
+   "releaseDate": "2024-07-05",
+   "recordType": "album",
+   "tracks": 5,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932452737",
+   "link": "https://www.deezer.com/album/601649372",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/e694f3bec8cf2e5cb96a5988a15cc74e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "607669942": {
+   "id": 607669942,
+   "title": "CumGetSum",
+   "artists": [
+    "KILY SAFARI"
+   ],
+   "artistId": 242144041,
+   "releaseDate": "2024-07-19",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932500759",
+   "link": "https://www.deezer.com/album/607669942",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/9fb9f63d2e032fbfdaca700b0ed91c98/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "609817502": {
+   "id": 609817502,
+   "title": "Hooked On Your Love",
+   "artists": [
+    "SUNZA CHIEF"
+   ],
+   "artistId": 266029032,
+   "releaseDate": "2024-07-05",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932512264",
+   "link": "https://www.deezer.com/album/609817502",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/37c04d8ad5d5401c65e8e621bb9aa65a/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "611081212": {
+   "id": 611081212,
+   "title": "THC",
+   "artists": [
+    "Scopes"
+   ],
+   "artistId": 1443539,
+   "releaseDate": "2024-08-16",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932515623",
+   "link": "https://www.deezer.com/album/611081212",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0a0d9497da6566fdcd38daf7f0edce86/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "617978681": {
+   "id": 617978681,
+   "title": "GANJA",
+   "artists": [
+    "KILY SAFARI",
+    "MIKESN3L"
+   ],
+   "artistId": 242144041,
+   "releaseDate": "2024-07-19",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932568872",
+   "link": "https://www.deezer.com/album/617978681",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/8c02975addbfe89b99f683358e509280/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "619809621": {
+   "id": 619809621,
+   "title": "Picturing It All",
+   "artists": [
+    "Scopes"
+   ],
+   "artistId": 1443539,
+   "releaseDate": "2024-08-30",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932578321",
+   "link": "https://www.deezer.com/album/619809621",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0a0d9497da6566fdcd38daf7f0edce86/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "626560701": {
+   "id": 626560701,
+   "title": "Survival",
+   "artists": [
+    "Scopes"
+   ],
+   "artistId": 1443539,
+   "releaseDate": "2024-08-30",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932606048",
+   "link": "https://www.deezer.com/album/626560701",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/6eb0d6b2c541f5d04650eeb4f8174c1d/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "632439071": {
+   "id": 632439071,
+   "title": "Follow Me To Coolangatta",
+   "artists": [
+    "SUNZA CHIEF"
+   ],
+   "artistId": 266029032,
+   "releaseDate": "2024-08-23",
+   "recordType": "album",
+   "tracks": 13,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932658078",
+   "link": "https://www.deezer.com/album/632439071",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/9e21aa9778256011ef65bfc9695e0757/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "638252691": {
+   "id": 638252691,
+   "title": "ADAM / GODESS",
+   "artists": [
+    "Aru Motoki"
+   ],
+   "artistId": 280444261,
+   "releaseDate": "2024-09-02",
+   "recordType": "single",
+   "tracks": 2,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932700098",
+   "link": "https://www.deezer.com/album/638252691",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0c06cd3936e8ac493c58fda3010c253e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "638257931": {
+   "id": 638257931,
+   "title": "Redemption - EP",
+   "artists": [
+    "Lowkey"
+   ],
+   "artistId": 172223,
+   "releaseDate": "2024-09-02",
+   "recordType": "ep",
+   "tracks": 4,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932700227",
+   "link": "https://www.deezer.com/album/638257931",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/20271122bde625f686687268bc5576f0/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "641877881": {
+   "id": 641877881,
+   "title": "Solo",
+   "artists": [
+    "Yxng Ciiber",
+    "Nice Flaco"
+   ],
+   "artistId": 81428342,
+   "releaseDate": "2024-09-13",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932721406",
+   "link": "https://www.deezer.com/album/641877881",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0eeeb6403ade170c52c082e20df8730c/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "641986231": {
+   "id": 641986231,
+   "title": "Known Better",
+   "artists": [
+    "KILY SAFARI"
+   ],
+   "artistId": 242144041,
+   "releaseDate": "2024-09-20",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932726098",
+   "link": "https://www.deezer.com/album/641986231",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/9b6326a88674da85f065b87942e18b53/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "645501101": {
+   "id": 645501101,
+   "title": "Someone That You Loved",
+   "artists": [
+    "Scopes"
+   ],
+   "artistId": 1443539,
+   "releaseDate": "2024-09-20",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932742975",
+   "link": "https://www.deezer.com/album/645501101",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/6eb0d6b2c541f5d04650eeb4f8174c1d/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "655435611": {
+   "id": 655435611,
+   "title": "Monsters",
+   "artists": [
+    "Ashley Gall"
+   ],
+   "artistId": 280008071,
+   "releaseDate": "2024-11-06",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932817901",
+   "link": "https://www.deezer.com/album/655435611",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/569f0d432b6568f45ee45dea44e05c1d/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "657303091": {
+   "id": 657303091,
+   "title": "24 Hours",
+   "artists": [
+    "kaedi"
+   ],
+   "artistId": 88902022,
+   "releaseDate": "2024-11-13",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932828051",
+   "link": "https://www.deezer.com/album/657303091",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/a0c5c36ff09c002c2fdfe87270fecff1/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "658659641": {
+   "id": 658659641,
+   "title": "My Hometown",
+   "artists": [
+    "Ashley Gall"
+   ],
+   "artistId": 280008071,
+   "releaseDate": "2024-11-20",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932838630",
+   "link": "https://www.deezer.com/album/658659641",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/f7443852eb92fdb456d12d6cfcd5cfea/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "666502151": {
+   "id": 666502151,
+   "title": "Hoedown",
+   "artists": [
+    "MUDDY SAINT"
+   ],
+   "artistId": 333598621,
+   "releaseDate": "2024-11-22",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932870814",
+   "link": "https://www.deezer.com/album/666502151",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/44d2856f212dd1022970485212b150b1/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "667749781": {
+   "id": 667749781,
+   "title": "Not Fair",
+   "artists": [
+    "Chantel"
+   ],
+   "artistId": 1038459,
+   "releaseDate": "2024-11-21",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932871729",
+   "link": "https://www.deezer.com/album/667749781",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/e7b71a9b318512a4fb375d0b6df4acde/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "669129391": {
+   "id": 669129391,
+   "title": "Murder City",
+   "artists": [
+    "Yxng Ciiber"
+   ],
+   "artistId": 81428342,
+   "releaseDate": "2024-11-21",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9360932914907",
+   "link": "https://www.deezer.com/album/669129391",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/95f39461d9ed65b4c0c125496e63ea6f/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "678314711": {
+   "id": 678314711,
+   "title": "Woman",
+   "artists": [
+    "Hermie"
+   ],
+   "artistId": 59268912,
+   "releaseDate": "2024-12-06",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713011754",
+   "link": "https://www.deezer.com/album/678314711",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/af11ea463f8edef334c955f746b51c46/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "678314911": {
+   "id": 678314911,
+   "title": "Corner Cafe",
+   "artists": [
+    "Ashley Gall"
+   ],
+   "artistId": 280008071,
+   "releaseDate": "2024-12-11",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713017282",
+   "link": "https://www.deezer.com/album/678314911",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/921c50e9201d75b0804e341cd83c16cb/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "680081071": {
+   "id": 680081071,
+   "title": "Paperweight",
+   "artists": [
+    "KILY SAFARI",
+    "Lowkey",
+    "Yxng Ciiber"
+   ],
+   "artistId": 242144041,
+   "releaseDate": "2024-12-18",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713026994",
+   "link": "https://www.deezer.com/album/680081071",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/4449b932d9eaaa43f6ba9cff67f3a2f7/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "740649261": {
+   "id": 740649261,
+   "title": "BLACK RUBBER GRIP",
+   "artists": [
+    "Ribby247",
+    "Nter"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2025-05-16",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713393256",
+   "link": "https://www.deezer.com/album/740649261",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/8cf2db2427f6d064298a98147aaacab4/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "742819931": {
+   "id": 742819931,
+   "title": "Shallow",
+   "artists": [
+    "Ashley Gall"
+   ],
+   "artistId": 280008071,
+   "releaseDate": "2025-04-16",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713413060",
+   "link": "https://www.deezer.com/album/742819931",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0fac35185acc3bbd741b1f0f1ed2c773/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "761072261": {
+   "id": 761072261,
+   "title": "Hopeless Romance",
+   "artists": [
+    "Mikey Finch"
+   ],
+   "artistId": 187744807,
+   "releaseDate": "2025-06-25",
+   "recordType": "single",
+   "tracks": 3,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713502054",
+   "link": "https://www.deezer.com/album/761072261",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/7c113376494852cd8afba215d76e1ac7/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "767627691": {
+   "id": 767627691,
+   "title": "Ex Nihilo",
+   "artists": [
+    "Anton"
+   ],
+   "artistId": 498975,
+   "releaseDate": "2025-07-04",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713540278",
+   "link": "https://www.deezer.com/album/767627691",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/290db30364f86baa6185cdd9b7c01d30/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "769505631": {
+   "id": 769505631,
+   "title": "7 Days",
+   "artists": [
+    "Lowkey"
+   ],
+   "artistId": 172223,
+   "releaseDate": "2025-06-11",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713488860",
+   "link": "https://www.deezer.com/album/769505631",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/44ffc206b5a69064c5654c47172f54d7/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "778594261": {
+   "id": 778594261,
+   "title": "MR GRAB A PACK",
+   "artists": [
+    "Ribby247",
+    "Jords"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2025-07-04",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713598675",
+   "link": "https://www.deezer.com/album/778594261",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/1ef95ad2a58d8b2996e7fbaeb150fb7f/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "781105581": {
+   "id": 781105581,
+   "title": "HURRICANE SALLY",
+   "artists": [
+    "MUDDY SAINT"
+   ],
+   "artistId": 333598621,
+   "releaseDate": "2025-07-25",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713613057",
+   "link": "https://www.deezer.com/album/781105581",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/b6765e336c6f69c5f5b6cf66bea027f1/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "788327361": {
+   "id": 788327361,
+   "title": "Pop-Country Confessions",
+   "artists": [
+    "Ashley Gall"
+   ],
+   "artistId": 280008071,
+   "releaseDate": "2025-07-18",
+   "recordType": "ep",
+   "tracks": 5,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713647137",
+   "link": "https://www.deezer.com/album/788327361",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/21a976fad5b1abf3a8a03f96a59c0889/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "799605201": {
+   "id": 799605201,
+   "title": "Torn Jeans",
+   "artists": [
+    "Ashley Gall"
+   ],
+   "artistId": 280008071,
+   "releaseDate": "2025-08-08",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713703246",
+   "link": "https://www.deezer.com/album/799605201",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/d29f26a648af7c0da35331ece5720351/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "811546601": {
+   "id": 811546601,
+   "title": "overdue",
+   "artists": [
+    "Cameryn"
+   ],
+   "artistId": 11499108,
+   "releaseDate": "2025-08-29",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713754118",
+   "link": "https://www.deezer.com/album/811546601",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/65aeadda084e1005d419e63511a19f47/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "811546631": {
+   "id": 811546631,
+   "title": "DEADSTOCK",
+   "artists": [
+    "33josiah",
+    "Twiggiestar"
+   ],
+   "artistId": 131142962,
+   "releaseDate": "2025-08-30",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713757157",
+   "link": "https://www.deezer.com/album/811546631",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/99c7dab1a2f217f99a9f43465e4a8614/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "817577051": {
+   "id": 817577051,
+   "title": "No More Dreamin'",
+   "artists": [
+    "Anton"
+   ],
+   "artistId": 498975,
+   "releaseDate": "2025-09-10",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713781961",
+   "link": "https://www.deezer.com/album/817577051",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/2b1f46bf62bc8c21334c13301733e3c3/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "822361161": {
+   "id": 822361161,
+   "title": "CHARLIE SHEEN",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2025-09-24",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713809269",
+   "link": "https://www.deezer.com/album/822361161",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/fbde3eb3342534d8037653c05a2e1adc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "823471681": {
+   "id": 823471681,
+   "title": "LOST TOKYO",
+   "artists": [
+    "Aru Motoki"
+   ],
+   "artistId": 280444261,
+   "releaseDate": "2025-10-01",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713814560",
+   "link": "https://www.deezer.com/album/823471681",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/11ee3ceb0eccabe0656daef4e276dafa/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "828282111": {
+   "id": 828282111,
+   "title": "Do You Want Me?",
+   "artists": [
+    "Mikey Finch"
+   ],
+   "artistId": 187744807,
+   "releaseDate": "2025-09-30",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713834728",
+   "link": "https://www.deezer.com/album/828282111",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/db56a3f6c782f7d4694cc994c32ff3cd/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "828828761": {
+   "id": 828828761,
+   "title": "infinitecommas",
+   "artists": [
+    "RawSpa"
+   ],
+   "artistId": 89360402,
+   "releaseDate": "2025-10-01",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713836876",
+   "link": "https://www.deezer.com/album/828828761",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/79e9ae618b1778ecf5b9fd3ea967aeca/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "837731892": {
+   "id": 837731892,
+   "title": "HEAPS MORE",
+   "artists": [
+    "Ribby247",
+    "Jords",
+    "4orttune"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2025-10-22",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713879576",
+   "link": "https://www.deezer.com/album/837731892",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/dc271badc1d29538a9eee4f6baf8826d/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "840971832": {
+   "id": 840971832,
+   "title": "Juice In The Booth",
+   "artists": [
+    "BloodJuice"
+   ],
+   "artistId": 199868097,
+   "releaseDate": "2025-10-18",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713892162",
+   "link": "https://www.deezer.com/album/840971832",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/1c6595ab50ad112b2412ac41031d0f26/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "841076852": {
+   "id": 841076852,
+   "title": "LEBA",
+   "artists": [
+    "Mezmure",
+    "Hyzah"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2025-11-21",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713894661",
+   "link": "https://www.deezer.com/album/841076852",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/d6da2916f02ba5ff9d3b885177710569/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "845015552": {
+   "id": 845015552,
+   "title": "On God",
+   "artists": [
+    "S7ven"
+   ],
+   "artistId": 1705016,
+   "releaseDate": "2025-12-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713912853",
+   "link": "https://www.deezer.com/album/845015552",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/f37075990a4480f7a385a5dd0a9f2404/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "858688192": {
+   "id": 858688192,
+   "title": "Hurt You",
+   "artists": [
+    "Rio Romeo"
+   ],
+   "artistId": 357544062,
+   "releaseDate": "2025-11-21",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713965194",
+   "link": "https://www.deezer.com/album/858688192",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/c9ae746096c52341aba6a846aac094e0/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "874794712": {
+   "id": 874794712,
+   "title": "DOJA",
+   "artists": [
+    "Mezmure"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2025-12-10",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531022465",
+   "link": "https://www.deezer.com/album/874794712",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/40b246f11314ab0800728265a68ba15c/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "874834722": {
+   "id": 874834722,
+   "title": "BLOCKLIST",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2025-12-17",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531019168",
+   "link": "https://www.deezer.com/album/874834722",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/5c6d6d1083b5f48133817b8855668ba1/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "874931572": {
+   "id": 874931572,
+   "title": "ZONIN",
+   "artists": [
+    "Sonar.Suite"
+   ],
+   "artistId": 52611242,
+   "releaseDate": "2025-12-19",
+   "recordType": "ep",
+   "tracks": 4,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9361713932035",
+   "link": "https://www.deezer.com/album/874931572",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/a06feb10064c9113b2998d573a567884/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "883764762": {
+   "id": 883764762,
+   "title": "A THOUSAND WORDS",
+   "artists": [
+    "MUDDY SAINT",
+    "Malaika Temba"
+   ],
+   "artistId": 333598621,
+   "releaseDate": "2025-12-19",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531051380",
+   "link": "https://www.deezer.com/album/883764762",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/e78e908cb404e71c294fa4c32052faee/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "892036892": {
+   "id": 892036892,
+   "title": "Mode-Z",
+   "artists": [
+    "Aru Motoki"
+   ],
+   "artistId": 280444261,
+   "releaseDate": "2026-01-14",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531079780",
+   "link": "https://www.deezer.com/album/892036892",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/58bf16a344f23f1939c3f1676ae283d3/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "892050162": {
+   "id": 892050162,
+   "title": "UNSTOPPABLE",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-01-21",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531079537",
+   "link": "https://www.deezer.com/album/892050162",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/43ea8becc7cb523c25243833e7a71964/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "892105242": {
+   "id": 892105242,
+   "title": "tell me twice",
+   "artists": [
+    "Cameryn"
+   ],
+   "artistId": 11499108,
+   "releaseDate": "2026-01-03",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531076062",
+   "link": "https://www.deezer.com/album/892105242",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/c9dec62c6eb05e3aebd4c4dff8874ade/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "892141432": {
+   "id": 892141432,
+   "title": "ÉTÉ EP",
+   "artists": [
+    "Mayahsol"
+   ],
+   "artistId": 366041642,
+   "releaseDate": "2026-01-30",
+   "recordType": "ep",
+   "tracks": 4,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531072774",
+   "link": "https://www.deezer.com/album/892141432",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/d60e664f92884f3c273922f8499d0c38/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "896750852": {
+   "id": 896750852,
+   "title": "TOO LONG",
+   "artists": [
+    "Jasmine Day"
+   ],
+   "artistId": 187603487,
+   "releaseDate": "2026-01-15",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531090730",
+   "link": "https://www.deezer.com/album/896750852",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0b5f8781dbe7e3d41af83d85ca0e5410/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "896809682": {
+   "id": 896809682,
+   "title": "Only To Love You",
+   "artists": [
+    "Alora Grace"
+   ],
+   "artistId": 332336091,
+   "releaseDate": "2026-01-31",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531090860",
+   "link": "https://www.deezer.com/album/896809682",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/004b4c533674603b29c5459722e62ed9/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901460792": {
+   "id": 901460792,
+   "title": "Evil East",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2024-01-19",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114917",
+   "link": "https://www.deezer.com/album/901460792",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/e755f5ca90b2ca10374b4e0394e4a5a8/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901460822": {
+   "id": 901460822,
+   "title": "GTA",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2024-06-07",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114955",
+   "link": "https://www.deezer.com/album/901460822",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/849aa7f9ee5376dd7b20a55ce4b16210/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901473552": {
+   "id": 901473552,
+   "title": "BIG BOP",
+   "artists": [
+    "Ribby247",
+    "KZ Da Bandit"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2022-01-07",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114702",
+   "link": "https://www.deezer.com/album/901473552",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/39b86b5d1b05590cd81c83ba73cf627c/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901473572": {
+   "id": 901473572,
+   "title": "42 FELON",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2024-12-18",
+   "recordType": "album",
+   "tracks": 7,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114962",
+   "link": "https://www.deezer.com/album/901473572",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/6c7524ad08bcb56ac684fad65618e7d9/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901483822": {
+   "id": 901483822,
+   "title": "NO MENTION",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2022-09-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114733",
+   "link": "https://www.deezer.com/album/901483822",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/1f29f0e90fd6b96d00476470d86bfa0c/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901483862": {
+   "id": 901483862,
+   "title": "RUN",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2022-12-09",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114740",
+   "link": "https://www.deezer.com/album/901483862",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/e2df3c10dc9642c6fe89706927379737/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901483902": {
+   "id": 901483902,
+   "title": "OnlyGang (Members Only)",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2023-05-27",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114788",
+   "link": "https://www.deezer.com/album/901483902",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/a68bea85d0701d4bb4381412a468720e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901483932": {
+   "id": 901483932,
+   "title": "EVIL TWIN",
+   "artists": [
+    "Ribby247",
+    "KZ Da Bandit"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2023-05-11",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114795",
+   "link": "https://www.deezer.com/album/901483932",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/51d8367b8ded6f13fdbb3b1cb6a96d05/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901483972": {
+   "id": 901483972,
+   "title": "THE RE-UP (MIXTAPE)",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2023-09-28",
+   "recordType": "ep",
+   "tracks": 5,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114825",
+   "link": "https://www.deezer.com/album/901483972",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/276cd9bef5e4175bf5d69ff39f8fd9cd/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901484002": {
+   "id": 901484002,
+   "title": "LIKE THAT",
+   "artists": [
+    "Ribby247",
+    "DHEM",
+    "Brayden Jay"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2023-11-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114849",
+   "link": "https://www.deezer.com/album/901484002",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/2b692ad073249076f37141fc15913d34/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "901497922": {
+   "id": 901497922,
+   "title": "Bm1",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2020-08-10",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114344",
+   "link": "https://www.deezer.com/album/901497922",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0a1a8730739b0ffad53aece3c0e5cc28/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "903327882": {
+   "id": 903327882,
+   "title": "2 STEP",
+   "artists": [
+    "Ribby247",
+    "Shadow"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2023-01-27",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114757",
+   "link": "https://www.deezer.com/album/903327882",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/8b27bd84d86e90b70f6abf9c00e881e6/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "903327972": {
+   "id": 903327972,
+   "title": "Welcome To Shooter Inc.",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2023-03-03",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114771",
+   "link": "https://www.deezer.com/album/903327972",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/e90fc825f50326ca8378cdb26e2f3eaf/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "905290822": {
+   "id": 905290822,
+   "title": "Drop It Down",
+   "artists": [
+    "Reaper"
+   ],
+   "artistId": 125474432,
+   "releaseDate": "2026-02-13",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531141524",
+   "link": "https://www.deezer.com/album/905290822",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/724709da15a31462747cf8848d683938/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "906332342": {
+   "id": 906332342,
+   "title": "WHITE WRAITH",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2023-12-22",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531114887",
+   "link": "https://www.deezer.com/album/906332342",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/3357874b5b2cb9b08a30732ebf8765fb/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "908461392": {
+   "id": 908461392,
+   "title": "FLOCKIN XO",
+   "artists": [
+    "LOVEAUGUSTXO"
+   ],
+   "artistId": 370448722,
+   "releaseDate": "2026-02-06",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531153305",
+   "link": "https://www.deezer.com/album/908461392",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/654b22f79c16101978c38f6664ae2c7e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "912584021": {
+   "id": 912584021,
+   "title": "PSALMS OF LOVE",
+   "artists": [
+    "MUDDY SAINT"
+   ],
+   "artistId": 333598621,
+   "releaseDate": "2026-02-06",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531162352",
+   "link": "https://www.deezer.com/album/912584021",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/8d8bce49f60500d2d746e5e5cfe1f4cd/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "912623841": {
+   "id": 912623841,
+   "title": "decaying devotion",
+   "artists": [
+    "Cameryn"
+   ],
+   "artistId": 11499108,
+   "releaseDate": "2026-02-07",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531165995",
+   "link": "https://www.deezer.com/album/912623841",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/5e129f994eace60cb748d22ac50d61eb/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "912636031": {
+   "id": 912636031,
+   "title": "Hold It Against You",
+   "artists": [
+    "Ashley Gall"
+   ],
+   "artistId": 280008071,
+   "releaseDate": "2026-02-06",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531166251",
+   "link": "https://www.deezer.com/album/912636031",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/500dc4ad7a26fa01b9a7d6e1a35c829e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "917502251": {
+   "id": 917502251,
+   "title": "Hold Me While I Disco",
+   "artists": [
+    "Mezmure"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2026-02-13",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531189823",
+   "link": "https://www.deezer.com/album/917502251",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/f2f3f2565ad91bdf3a6836cdb373f31f/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "919932511": {
+   "id": 919932511,
+   "title": "INTERNATIONAL",
+   "artists": [
+    "Sonar.Suite",
+    "LOVEAUGUSTXO"
+   ],
+   "artistId": 52611242,
+   "releaseDate": "2026-02-14",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531190829",
+   "link": "https://www.deezer.com/album/919932511",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/e31b0f61f4b4772c6a2c28fda7b72468/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "920413811": {
+   "id": 920413811,
+   "title": "POWA",
+   "artists": [
+    "xo pierre",
+    "Skillies"
+   ],
+   "artistId": 280008991,
+   "releaseDate": "2026-02-24",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide/Stop One Distribution LLC",
+   "upc": "9362531191451",
+   "link": "https://www.deezer.com/album/920413811",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/79329ba5b65b85dc92046cabbd2397a5/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "922766411": {
+   "id": 922766411,
+   "title": "At the Tone",
+   "artists": [
+    "Alora Grace"
+   ],
+   "artistId": 332336091,
+   "releaseDate": "2026-02-28",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531205851",
+   "link": "https://www.deezer.com/album/922766411",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/df8bfcd3f1daf8926dfe5497d6321dc3/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "922766611": {
+   "id": 922766611,
+   "title": "TOUGH CROWD",
+   "artists": [
+    "Jasmine Day",
+    "Sonar.Suite"
+   ],
+   "artistId": 187603487,
+   "releaseDate": "2026-02-26",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531205929",
+   "link": "https://www.deezer.com/album/922766611",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/a60afdaa019b15144f775c300d72f600/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "927831751": {
+   "id": 927831751,
+   "title": "RockMollyCokeKetamine",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-03-18",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531227488",
+   "link": "https://www.deezer.com/album/927831751",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/2ae803045db018383db8abcd41c3e555/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "930741631": {
+   "id": 930741631,
+   "title": "Love, Forget",
+   "artists": [
+    "Mikey Finch"
+   ],
+   "artistId": 187744807,
+   "releaseDate": "2026-03-31",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531232321",
+   "link": "https://www.deezer.com/album/930741631",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/22d47b165735db6bf8ec793f15ab665f/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "933369441": {
+   "id": 933369441,
+   "title": "Like You Do",
+   "artists": [
+    "Mai Elanor"
+   ],
+   "artistId": 377661501,
+   "releaseDate": "2026-03-11",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531238484",
+   "link": "https://www.deezer.com/album/933369441",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/16733dd1ec6e9831469cf3ed007841fc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "938842481": {
+   "id": 938842481,
+   "title": "Chanel",
+   "artists": [
+    "Lil Jaye"
+   ],
+   "artistId": 71223042,
+   "releaseDate": "2026-04-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531234097",
+   "link": "https://www.deezer.com/album/938842481",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/5efb396d9f9227a30be2b11534d669c9/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "941082701": {
+   "id": 941082701,
+   "title": "your house",
+   "artists": [
+    "Cameryn"
+   ],
+   "artistId": 11499108,
+   "releaseDate": "2026-03-20",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531265169",
+   "link": "https://www.deezer.com/album/941082701",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/8899086147ffe5766cf51ecb335024f1/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "941237491": {
+   "id": 941237491,
+   "title": "Hunnid A Show",
+   "artists": [
+    "Lil Jaye",
+    "KILY SAFARI"
+   ],
+   "artistId": 71223042,
+   "releaseDate": "2026-03-18",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531254101",
+   "link": "https://www.deezer.com/album/941237491",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/26fe99bf28765d5dff2cf5c086735768/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "941671411": {
+   "id": 941671411,
+   "title": "Blow It Out",
+   "artists": [
+    "Ashley Gall"
+   ],
+   "artistId": 280008071,
+   "releaseDate": "2026-03-20",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531267743",
+   "link": "https://www.deezer.com/album/941671411",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/26ca58fb06449792583266dbb7d8cd4c/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "946401701": {
+   "id": 946401701,
+   "title": "BKD",
+   "artists": [
+    "Ribby247",
+    "Cult Shφtta"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-04-01",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531284139",
+   "link": "https://www.deezer.com/album/946401701",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/3053f3a0e664d482c31023ca06f876c3/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "946550401": {
+   "id": 946550401,
+   "title": "on & on",
+   "artists": [
+    "Mai Elanor"
+   ],
+   "artistId": 377661501,
+   "releaseDate": "2026-03-25",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531275014",
+   "link": "https://www.deezer.com/album/946550401",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/16733dd1ec6e9831469cf3ed007841fc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "952403301": {
+   "id": 952403301,
+   "title": "Incantation",
+   "artists": [
+    "Alora Grace"
+   ],
+   "artistId": 332336091,
+   "releaseDate": "2026-04-03",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531294657",
+   "link": "https://www.deezer.com/album/952403301",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/3e11d07c53c982221cfa02c3e137ba81/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "952436341": {
+   "id": 952436341,
+   "title": "No Caller ID",
+   "artists": [
+    "Detchi"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-04-01",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531292325",
+   "link": "https://www.deezer.com/album/952436341",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/044e8ad5c97f23c44f2c3cfe7547877e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "952448561": {
+   "id": 952448561,
+   "title": "House of Cards",
+   "artists": [
+    "Hammer and Thongs"
+   ],
+   "artistId": 382937421,
+   "releaseDate": "2026-03-31",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531301256",
+   "link": "https://www.deezer.com/album/952448561",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/e46511847f76dc3bf0b585572898047a/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "955418261": {
+   "id": 955418261,
+   "title": "Lost n Found",
+   "artists": [
+    "Jasmine Day",
+    "Sonar.Suite"
+   ],
+   "artistId": 187603487,
+   "releaseDate": "2026-04-23",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531315314",
+   "link": "https://www.deezer.com/album/955418261",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/5fca5fe1e6d03a556788e958ef86a32a/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "960601421": {
+   "id": 960601421,
+   "title": "Dezi Freeman",
+   "artists": [
+    "Ribby247",
+    "4orttune",
+    "Isaac Puerile",
+    "Villy"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-04-13",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531321520",
+   "link": "https://www.deezer.com/album/960601421",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/7c31fe1dc02b1e46ca6ed9dfa2a0a6dc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "965227171": {
+   "id": 965227171,
+   "title": "247 DEGREES",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-04-22",
+   "recordType": "ep",
+   "tracks": 6,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531350490",
+   "link": "https://www.deezer.com/album/965227171",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/cfad9f29789d5969fbec174543231757/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "968814811": {
+   "id": 968814811,
+   "title": "Woman Like You (Demo)",
+   "artists": [
+    "Mai Elanor"
+   ],
+   "artistId": 377661501,
+   "releaseDate": "2026-05-06",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531360055",
+   "link": "https://www.deezer.com/album/968814811",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/16733dd1ec6e9831469cf3ed007841fc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "968961871": {
+   "id": 968961871,
+   "title": "CONTROLLER",
+   "artists": [
+    "Mezmure",
+    "Chris Moore",
+    "aponthetrack",
+    "Malik Lindo"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2026-04-24",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531355570",
+   "link": "https://www.deezer.com/album/968961871",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/944f7205646668002452cdc3694fbe2a/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "968999681": {
+   "id": 968999681,
+   "title": "Who Ya Know?",
+   "artists": [
+    "Mayahsol"
+   ],
+   "artistId": 366041642,
+   "releaseDate": "2026-04-23",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531348763",
+   "link": "https://www.deezer.com/album/968999681",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/815f0b4d8752badbef0527f30b503080/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "971346411": {
+   "id": 971346411,
+   "title": "LOVE TEARS & RIDDIM",
+   "artists": [
+    "Hermie"
+   ],
+   "artistId": 59268912,
+   "releaseDate": "2026-05-01",
+   "recordType": "ep",
+   "tracks": 4,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531369614",
+   "link": "https://www.deezer.com/album/971346411",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/db5f588235e240e06d41847131aeb93e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "971415671": {
+   "id": 971415671,
+   "title": "lamb gone blind",
+   "artists": [
+    "Cameryn"
+   ],
+   "artistId": 11499108,
+   "releaseDate": "2026-04-30",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531367078",
+   "link": "https://www.deezer.com/album/971415671",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/beeb08f35ca8678ba5d468a5be44668a/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "973041301": {
+   "id": 973041301,
+   "title": "uhhhh idk what to name ts.",
+   "artists": [
+    "Detchi"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-04-30",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531375523",
+   "link": "https://www.deezer.com/album/973041301",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/fcf41181d75d19f9f792380a6ccf33c0/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "976250601": {
+   "id": 976250601,
+   "title": "In My Head",
+   "artists": [
+    "Alora Grace",
+    "Mai Elanor"
+   ],
+   "artistId": 332336091,
+   "releaseDate": "2026-05-14",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531380886",
+   "link": "https://www.deezer.com/album/976250601",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/22409f28d5dcbdbf1a97e6216b9d9581/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "976250621": {
+   "id": 976250621,
+   "title": "LOVERS SPELL",
+   "artists": [
+    "Tallulah Kyani"
+   ],
+   "artistId": 389278561,
+   "releaseDate": "2026-05-15",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531380947",
+   "link": "https://www.deezer.com/album/976250621",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/a02bae8ab149c7f0cd2936672164c071/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "976250651": {
+   "id": 976250651,
+   "title": "So Simple",
+   "artists": [
+    "Alora Grace"
+   ],
+   "artistId": 332336091,
+   "releaseDate": "2026-05-28",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531380961",
+   "link": "https://www.deezer.com/album/976250651",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/8ac56dd99865aa020652288f13c3983c/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "976263891": {
+   "id": 976263891,
+   "title": "FAVELA",
+   "artists": [
+    "Mezmure",
+    "Chris Moore",
+    "aponthetrack"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2026-05-08",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531380824",
+   "link": "https://www.deezer.com/album/976263891",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0cc5b000bfbe10d401a8d37ba543a55b/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "977022151": {
+   "id": 977022151,
+   "title": "MOON EYES",
+   "artists": [
+    "Sonar.Suite"
+   ],
+   "artistId": 52611242,
+   "releaseDate": "2026-05-27",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531388387",
+   "link": "https://www.deezer.com/album/977022151",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/44a83ec75af6afe1282bd993060afcfd/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "983588501": {
+   "id": 983588501,
+   "title": "BE THE CHANGE",
+   "artists": [
+    "AEONS WXRLD"
+   ],
+   "artistId": 346409021,
+   "releaseDate": "2026-05-20",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531402731",
+   "link": "https://www.deezer.com/album/983588501",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/c23f19e7bad6d788e6321bfa7ca3beef/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "985605681": {
+   "id": 985605681,
+   "title": "OZ OZ \"Oi Oi\"",
+   "artists": [
+    "KILY SAFARI"
+   ],
+   "artistId": 242144041,
+   "releaseDate": "2026-06-05",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531407330",
+   "link": "https://www.deezer.com/album/985605681",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/122c0af78604deadb77afea3dad8e78b/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "985605761": {
+   "id": 985605761,
+   "title": "Seaside",
+   "artists": [
+    "Detchi"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-05-18",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531407958",
+   "link": "https://www.deezer.com/album/985605761",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/8b2aac66e4e925fac445615a2f2fcec5/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "985647431": {
+   "id": 985647431,
+   "title": "YENE",
+   "artists": [
+    "Mezmure"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2026-05-15",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531402946",
+   "link": "https://www.deezer.com/album/985647431",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/54b31142fea005a6f48261572dbbc5bb/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "985647441": {
+   "id": 985647441,
+   "title": "Be Aware",
+   "artists": [
+    "LOVEAUGUSTXO"
+   ],
+   "artistId": 370448722,
+   "releaseDate": "2026-05-22",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531402991",
+   "link": "https://www.deezer.com/album/985647441",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/bfd3f77cfcff4a8d2e8861deb760934c/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "986414691": {
+   "id": 986414691,
+   "title": "RockStar",
+   "artists": [
+    "S7ven",
+    "Detchi"
+   ],
+   "artistId": 1705016,
+   "releaseDate": "2026-05-29",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531415588",
+   "link": "https://www.deezer.com/album/986414691",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/cb416ccce73a988b7ba83891f3e375e7/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "991504241": {
+   "id": 991504241,
+   "title": "CRAZY WXRLD",
+   "artists": [
+    "AEONS WXRLD"
+   ],
+   "artistId": 346409021,
+   "releaseDate": "2026-05-27",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531432851",
+   "link": "https://www.deezer.com/album/991504241",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/4098ac586200f1f3eaba58b56c9e6b71/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "991518821": {
+   "id": 991518821,
+   "title": "NO RINGTONE",
+   "artists": [
+    "Andre Bugatti"
+   ],
+   "artistId": 114642292,
+   "releaseDate": "2026-06-17",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531432714",
+   "link": "https://www.deezer.com/album/991518821",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/421b66ca4361f2b265f33d65b6538f92/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "992508141": {
+   "id": 992508141,
+   "title": "GEDELE",
+   "artists": [
+    "Mezmure"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2026-05-29",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531435425",
+   "link": "https://www.deezer.com/album/992508141",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/d5ffbdd9d36f1de590e92e2d79f34553/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "992508171": {
+   "id": 992508171,
+   "title": "ANCHE LEBA",
+   "artists": [
+    "Mezmure"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2026-06-05",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531435524",
+   "link": "https://www.deezer.com/album/992508171",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/b4baba2de980c85fa098f1491b7e3c7a/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "994040961": {
+   "id": 994040961,
+   "title": "What You Want",
+   "artists": [
+    "Mai Elanor"
+   ],
+   "artistId": 377661501,
+   "releaseDate": "2026-06-04",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531440818",
+   "link": "https://www.deezer.com/album/994040961",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/16733dd1ec6e9831469cf3ed007841fc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "994917121": {
+   "id": 994917121,
+   "title": "Nobody Knows",
+   "artists": [
+    "Lowkey"
+   ],
+   "artistId": 172223,
+   "releaseDate": "2026-06-19",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531411672",
+   "link": "https://www.deezer.com/album/994917121",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/028613a4e4f6bc851dfb31108dbc4dbc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "997398731": {
+   "id": 997398731,
+   "title": "THINGS I NEVER SAID",
+   "artists": [
+    "Andre Bugatti"
+   ],
+   "artistId": 114642292,
+   "releaseDate": "2026-06-19",
+   "recordType": "album",
+   "tracks": 8,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531451456",
+   "link": "https://www.deezer.com/album/997398731",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/ef9610ecf4fa363dd37891a867b6b515/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "997411561": {
+   "id": 997411561,
+   "title": "ALMA EN VUELO",
+   "artists": [
+    "CHOOFA"
+   ],
+   "artistId": 394620671,
+   "releaseDate": "2026-06-04",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531451302",
+   "link": "https://www.deezer.com/album/997411561",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/69e43abb6e23a63cd4d353665a82fc1d/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "997669321": {
+   "id": 997669321,
+   "title": "EndZone",
+   "artists": [
+    "S7ven"
+   ],
+   "artistId": 1705016,
+   "releaseDate": "2026-06-05",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531407392",
+   "link": "https://www.deezer.com/album/997669321",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/3095005200716b3d6ada7a66bbb49f3e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1003388721": {
+   "id": 1003388721,
+   "title": "I’ve Been",
+   "artists": [
+    "Mai Elanor"
+   ],
+   "artistId": 377661501,
+   "releaseDate": "2026-07-08",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531470808",
+   "link": "https://www.deezer.com/album/1003388721",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/16733dd1ec6e9831469cf3ed007841fc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1005081491": {
+   "id": 1005081491,
+   "title": "MAYO",
+   "artists": [
+    "Mezmure"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2026-06-12",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531472918",
+   "link": "https://www.deezer.com/album/1005081491",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/ff6c95d5daa00a50b0a0d110d9033195/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1007983061": {
+   "id": 1007983061,
+   "title": "Apathy",
+   "artists": [
+    "Detchi"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-06-20",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531484584",
+   "link": "https://www.deezer.com/album/1007983061",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/40c346d2c1f6f670a834d80c9c588779/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1008126821": {
+   "id": 1008126821,
+   "title": "MAIN CHARACTER",
+   "artists": [
+    "KILY SAFARI"
+   ],
+   "artistId": 242144041,
+   "releaseDate": "2026-07-04",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531481897",
+   "link": "https://www.deezer.com/album/1008126821",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/591ac7c55b682c4835814820a55c13ad/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1009868481": {
+   "id": 1009868481,
+   "title": "ADONIS",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-06-19",
+   "recordType": "album",
+   "tracks": 14,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531485383",
+   "link": "https://www.deezer.com/album/1009868481",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/980031537b1e69542aa921acc0a25a55/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1011793031": {
+   "id": 1011793031,
+   "title": "paralysis",
+   "artists": [
+    "Cameryn"
+   ],
+   "artistId": 11499108,
+   "releaseDate": "2026-06-25",
+   "recordType": "ep",
+   "tracks": 4,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531488735",
+   "link": "https://www.deezer.com/album/1011793031",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/d65af548ea38ee9b6a0ac2b8a0517ead/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1024219851": {
+   "id": 1024219851,
+   "title": "gacked",
+   "artists": [
+    "c4sch",
+    "5iver"
+   ],
+   "artistId": 402232981,
+   "releaseDate": "2026-07-10",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531528509",
+   "link": "https://www.deezer.com/album/1024219851",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/ad367bed6644b7fe90099c9ff72b4c57/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1035351432": {
+   "id": 1035351432,
+   "title": "MOTIVE EP",
+   "artists": [
+    "Lowkey"
+   ],
+   "artistId": 172223,
+   "releaseDate": "2026-07-23",
+   "recordType": "ep",
+   "tracks": 2,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531557714",
+   "link": "https://www.deezer.com/album/1035351432",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/5d660b3376025a9a6cb394320e5000d8/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1039237252": {
+   "id": 1039237252,
+   "title": "PANORAMIC",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-07-31",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531568321",
+   "link": "https://www.deezer.com/album/1039237252",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/60e1d844aee92c666e1722a952a4ce0c/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1039405762": {
+   "id": 1039405762,
+   "title": "eventually",
+   "artists": [
+    "Cameryn"
+   ],
+   "artistId": 11499108,
+   "releaseDate": "2026-07-30",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531562336",
+   "link": "https://www.deezer.com/album/1039405762",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/fb6247b9678d928a0d37fc19bd96e807/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1041287002": {
+   "id": 1041287002,
+   "title": "LEVELS",
+   "artists": [
+    "Reaper"
+   ],
+   "artistId": 125474432,
+   "releaseDate": "2026-07-31",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531571833",
+   "link": "https://www.deezer.com/album/1041287002",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/4e7b67bacef6d6fe67025b6d4122e9b7/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1046941062": {
+   "id": 1046941062,
+   "title": "YARE",
+   "artists": [
+    "Mezmure"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2026-09-04",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531586011",
+   "link": "https://www.deezer.com/album/1046941062",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/96af895b94112fe99281886321477c9d/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1046953552": {
+   "id": 1046953552,
+   "title": "YALLAH HABIBTI",
+   "artists": [
+    "Mezmure"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2026-08-07",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531585823",
+   "link": "https://www.deezer.com/album/1046953552",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/c5b517d81028e748a058e5e6d64e2b37/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1047840652": {
+   "id": 1047840652,
+   "title": "WOZA",
+   "artists": [
+    "Mezmure",
+    "KILY SAFARI"
+   ],
+   "artistId": 237977361,
+   "releaseDate": "2026-08-21",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531585878",
+   "link": "https://www.deezer.com/album/1047840652",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/c637674d829a55865ff36b8fbae8ee42/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1055012632": {
+   "id": 1055012632,
+   "title": "down the line",
+   "artists": [
+    "Cameryn"
+   ],
+   "artistId": 11499108,
+   "releaseDate": "2026-08-10",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531593378",
+   "link": "https://www.deezer.com/album/1055012632",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/72de0ebbd95977ebcb7798772a7a60fe/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1056352952": {
+   "id": 1056352952,
+   "title": "TOP FLOOR",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-08-26",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531608256",
+   "link": "https://www.deezer.com/album/1056352952",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/3b2136b2292c104553b7e2ab9eb94900/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1056353042": {
+   "id": 1056353042,
+   "title": "GOUT",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-08-19",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531608263",
+   "link": "https://www.deezer.com/album/1056353042",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/84fbcb5029866b6536b45b23ef310cc5/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1056368312": {
+   "id": 1056368312,
+   "title": "INTUITION",
+   "artists": [
+    "Mai Elanor"
+   ],
+   "artistId": 377661501,
+   "releaseDate": "2026-08-19",
+   "recordType": "album",
+   "tracks": 7,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531608102",
+   "link": "https://www.deezer.com/album/1056368312",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/16733dd1ec6e9831469cf3ed007841fc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1056417032": {
+   "id": 1056417032,
+   "title": "Selfish",
+   "artists": [
+    "Mai Elanor"
+   ],
+   "artistId": 377661501,
+   "releaseDate": "2026-08-19",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531591053",
+   "link": "https://www.deezer.com/album/1056417032",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/16733dd1ec6e9831469cf3ed007841fc/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1057342832": {
+   "id": 1057342832,
+   "title": "City",
+   "artists": [
+    "Detchi",
+    "Sino!"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-08-14",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531606252",
+   "link": "https://www.deezer.com/album/1057342832",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/79467d88aff9aff614e64a9d00ad0f8e/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1060965452": {
+   "id": 1060965452,
+   "title": "Headlock",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-09-04",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531623990",
+   "link": "https://www.deezer.com/album/1060965452",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/69e66eba82845dd2979a783aac3c8ad9/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1064338351": {
+   "id": 1064338351,
+   "title": "YANKEE W NO BRIM",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-08-28",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531633180",
+   "link": "https://www.deezer.com/album/1064338351",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/721fbe2260c65abefbbd9fddfffd6d99/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1073079562": {
+   "id": 1073079562,
+   "title": "4:44",
+   "artists": [
+    "Detchi",
+    "Sino!",
+    "KennyBounce"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-09-10",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531651405",
+   "link": "https://www.deezer.com/album/1073079562",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/9d344700f0f446ce06aefb6b52aee7bb/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1075679962": {
+   "id": 1075679962,
+   "title": "Find A Way",
+   "artists": [
+    "Tyson"
+   ],
+   "artistId": 499175,
+   "releaseDate": "2026-09-11",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531661879",
+   "link": "https://www.deezer.com/album/1075679962",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/15914d265d8ebe3b57f678f7e51f88c8/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1076494632": {
+   "id": 1076494632,
+   "title": "WHATS CRACKIN'",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-09-11",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531663446",
+   "link": "https://www.deezer.com/album/1076494632",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/6f9b0c27be30b8c231e13c6618982ec1/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1078454052": {
+   "id": 1078454052,
+   "title": "be safe",
+   "artists": [
+    "Detchi"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-09-14",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531670581",
+   "link": "https://www.deezer.com/album/1078454052",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/c8e94585f53d1d1442444362c9f6e3e7/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1081889282": {
+   "id": 1081889282,
+   "title": "LOW",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-09-18",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531680023",
+   "link": "https://www.deezer.com/album/1081889282",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/d1bd7598f53f93cafc304bd8128666e6/500x500-000000-80-0-0.jpg",
+   "isOurs": true
+  },
+  "1101485652": {
+   "id": 1101485652,
+   "title": "Stay",
+   "artists": [
+    "Tyson"
+   ],
+   "artistId": 499175,
+   "releaseDate": "2026-09-23",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531688180",
+   "link": "https://www.deezer.com/album/1101485652",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/508a3d7acbc2446ef558de12fbf90f5b/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/stay-single/6814811796?uo=4"
+  },
+  "1101566652": {
+   "id": 1101566652,
+   "title": "JELLYBEAN",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-09-25",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531688883",
+   "link": "https://www.deezer.com/album/1101566652",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/48fe0526a29a17c2071dc57ff37b23c2/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/jellybean-single/6814807339?uo=4"
+  },
+  "1101572452": {
+   "id": 1101572452,
+   "title": "SEXMONEYMURDER",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-09-23",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531687749",
+   "link": "https://www.deezer.com/album/1101572452",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/c095ac859db2049823bbcd0d8420f3ff/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/sexmoneymurder-single/6814814360?uo=4"
+  },
+  "1103652602": {
+   "id": 1103652602,
+   "title": "Right Now",
+   "artists": [
+    "Aru Motoki"
+   ],
+   "artistId": 280444261,
+   "releaseDate": "2026-10-01",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531693917",
+   "link": "https://www.deezer.com/album/1103652602",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/faa8f9135510bfe19e607107918d9653/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/right-now-single/6815650263?uo=4"
+  },
+  "1105889922": {
+   "id": 1105889922,
+   "title": "Body On Me",
+   "artists": [
+    "Detchi"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-10-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531696079",
+   "link": "https://www.deezer.com/album/1105889922",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/c0ebd1adb2938075baba889b81f0f5b7/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/body-on-me-single/6816058928?uo=4"
+  },
+  "1108503632": {
+   "id": 1108503632,
+   "title": "Blick",
+   "artists": [
+    "Detchi"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-10-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531701629",
+   "link": "https://www.deezer.com/album/1108503632",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/a723dc105c2a72a8e61d074602dcde12/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/blick-single/6816944088?uo=4"
+  },
+  "1111145152": {
+   "id": 1111145152,
+   "title": "ADDING UP",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-10-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531708932",
+   "link": "https://www.deezer.com/album/1111145152",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/5355bb5898ff387c515c8c1f2fb240b8/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/adding-up-single/6818127507?uo=4"
+  },
+  "1114201092": {
+   "id": 1114201092,
+   "title": "Hazel",
+   "artists": [
+    "Tyson"
+   ],
+   "artistId": 499175,
+   "releaseDate": "2026-10-04",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531711222",
+   "link": "https://www.deezer.com/album/1114201092",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/9fd280a92d8557febf6461d11b58c3d1/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/hazel-single/6819265997?uo=4"
+  }
+ }
+}

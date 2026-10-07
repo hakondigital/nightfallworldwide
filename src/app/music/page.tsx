@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ArtistCard from "@/components/music/ArtistCard";
 import ReleaseCard from "@/components/music/ReleaseCard";
+import ReleaseFeedCard from "@/components/music/ReleaseFeedCard";
 import ServiceCards from "@/components/music/ServiceCards";
 import Showreel from "@/components/music/Showreel";
 import Tracklist from "@/components/music/Tracklist";
@@ -12,6 +13,7 @@ import PageHero, { Rule, StreamsStat } from "@/components/ui/PageHero";
 import Rail from "@/components/ui/Rail";
 import Section from "@/components/ui/Section";
 import { collective, globalArtists } from "@/lib/content/artists";
+import { latestReleases, releaseFeed, upcomingReleases } from "@/lib/content/releases";
 import { team } from "@/lib/content/team";
 import { track, tracks } from "@/lib/content/tracks";
 
@@ -22,6 +24,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "/music" },
 };
 
+// Fallback only — the feed from scripts/sync-releases.mjs normally takes over.
 const LATEST = [
   "5xLGhZO2Dw7NHigfRm0hZa", // WOZA
   "27pJRayIsaKpjOkenEzYt9", // Hold Me While I Disco
@@ -32,6 +35,9 @@ const LATEST = [
 ].map(track);
 
 export default function MusicPage() {
+  const upcoming = upcomingReleases();
+  const latest = latestReleases(6);
+  const updated = new Date(releaseFeed.generatedAt).toLocaleDateString("en-AU", { day: "numeric", month: "short" });
   return (
     <>
       <PageHero
@@ -73,13 +79,23 @@ export default function MusicPage() {
         </Rail>
       </Section>
 
+      {/* releasing soon — only when the label has something scheduled */}
+      {upcoming.length > 0 && (
+        <Section theme="day" id="upcoming" className="pad-x scroll-mt-32 pt-[clamp(60px,8vw,110px)]">
+          <Rule left="Releasing soon" right="Straight from the label's catalogue" />
+          <Rail cols={6} className="mt-6">
+            {upcoming.map((r) => (
+              <ReleaseFeedCard key={r.id} r={r} upcoming />
+            ))}
+          </Rail>
+        </Section>
+      )}
+
       {/* releases */}
       <Section theme="day" id="catalogue" className="pad-x scroll-mt-32 pt-[clamp(60px,8vw,110px)]">
-        <Rule left="Latest releases" right="Tap a cover for a 30-second preview" />
+        <Rule left="Latest releases" right={latest.length ? `From the label's catalogue · updated ${updated}` : "Tap a cover for a 30-second preview"} />
         <Rail cols={6} className="mt-6">
-          {LATEST.map((t) => (
-            <ReleaseCard key={t.id} track={t} />
-          ))}
+          {latest.length ? latest.map((r) => <ReleaseFeedCard key={r.id} r={r} />) : LATEST.map((t) => <ReleaseCard key={t.id} track={t} />)}
         </Rail>
         <div className="mt-10 border-t border-line">
           <Accordion title="Full catalogue" meta={`${tracks.length} tracks from across the team`}>

@@ -1,0 +1,37 @@
+# Keeps the Music page's "Latest releases" and "Releasing soon" sections current.
+# Pulls the label's catalogue from Deezer every six hours; if anything changed,
+# commits the new feed, which makes Cloudflare rebuild and deploy the site.
+name: Sync releases
+
+on:
+  schedule:
+    - cron: "15 */6 * * *" # every six hours (UTC)
+  workflow_dispatch: # or run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch the label's releases from Deezer
+        run: node scripts/sync-releases.mjs
+
+      - name: Commit the feed if it changed
+        run: |
+          git config user.name "nightfall-releases-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/releases-cache.json src/lib/content/releases.generated.json public/media/releases
+          if git diff --cached --quiet; then
+            echo "No new releases."
+          else
+            git commit -m "Update releases feed"
+            git push
+          fi

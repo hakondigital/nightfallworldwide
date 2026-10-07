@@ -64,6 +64,12 @@ npm run brand     # logo exports, favicon, apple icon, social share image
 
 Reference images by file name (without extension), e.g. `<Media name="studio-control-room" alt="…" />`. The manifest (`src/lib/media.generated.ts`) is generated — don't edit it by hand. Release covers are downloaded once and served from `/media/covers/`, so they don't depend on Spotify's image CDN.
 
+## Latest releases feed
+
+The Music page's **Latest releases** and **Releasing soon** sections fill themselves. Every release Nightfall distributes reaches Deezer tagged with the label name, and Deezer's catalogue API is public, so `scripts/sync-releases.mjs` searches by label, keeps the newest releases plus anything with a future date, saves the covers to `public/media/releases/` and writes `src/lib/content/releases.generated.json`. No artist list to maintain.
+
+A GitHub Action (`.github/workflows/sync-releases.yml`) runs it every six hours and commits only when something changed, which triggers a Cloudflare deploy. Run it locally with `npm run releases`. "Releasing soon" appears only when the distributor has delivered a release ahead of its date.
+
 ## Integrations
 
 - **Bookings** — Acuity. Studio and WhiteWall packages open their own calendar inside the booking drawer (`schedule.php?owner=28156026&appointmentType=<id>`).

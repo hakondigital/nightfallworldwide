@@ -1,0 +1,134 @@
+{
+ "generatedAt": "2026-10-07T14:16:50.892Z",
+ "label": "Nightfall Worldwide",
+ "releases": [
+  {
+   "id": 1114201092,
+   "title": "Hazel",
+   "artists": [
+    "Tyson"
+   ],
+   "artistId": 499175,
+   "releaseDate": "2026-10-04",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "upc": "9362531711222",
+   "link": "https://www.deezer.com/album/1114201092",
+   "apple": "https://music.apple.com/au/album/hazel-single/6819265997?uo=4",
+   "cover": "/media/releases/1114201092.jpg"
+  },
+  {
+   "id": 1111145152,
+   "title": "ADDING UP",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-10-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531708932",
+   "link": "https://www.deezer.com/album/1111145152",
+   "apple": "https://music.apple.com/au/album/adding-up-single/6818127507?uo=4",
+   "cover": "/media/releases/1111145152.jpg"
+  },
+  {
+   "id": 1108503632,
+   "title": "Blick",
+   "artists": [
+    "Detchi"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-10-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531701629",
+   "link": "https://www.deezer.com/album/1108503632",
+   "apple": "https://music.apple.com/au/album/blick-single/6816944088?uo=4",
+   "cover": "/media/releases/1108503632.jpg"
+  },
+  {
+   "id": 1105889922,
+   "title": "Body On Me",
+   "artists": [
+    "Detchi"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-10-02",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531696079",
+   "link": "https://www.deezer.com/album/1105889922",
+   "apple": "https://music.apple.com/au/album/body-on-me-single/6816058928?uo=4",
+   "cover": "/media/releases/1105889922.jpg"
+  },
+  {
+   "id": 1103652602,
+   "title": "Right Now",
+   "artists": [
+    "Aru Motoki"
+   ],
+   "artistId": 280444261,
+   "releaseDate": "2026-10-01",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "upc": "9362531693917",
+   "link": "https://www.deezer.com/album/1103652602",
+   "apple": "https://music.apple.com/au/album/right-now-single/6815650263?uo=4",
+   "cover": "/media/releases/1103652602.jpg"
+  },
+  {
+   "id": 1101566652,
+   "title": "JELLYBEAN",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-09-25",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "upc": "9362531688883",
+   "link": "https://www.deezer.com/album/1101566652",
+   "apple": "https://music.apple.com/au/album/jellybean-single/6814807339?uo=4",
+   "cover": "/media/releases/1101566652.jpg"
+  },
+  {
+   "id": 1101572452,
+   "title": "SEXMONEYMURDER",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-09-23",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531687749",
+   "link": "https://www.deezer.com/album/1101572452",
+   "apple": "https://music.apple.com/au/album/sexmoneymurder-single/6814814360?uo=4",
+   "cover": "/media/releases/1101572452.jpg"
+  },
+  {
+   "id": 1101485652,
+   "title": "Stay",
+   "artists": [
+    "Tyson"
+   ],
+   "artistId": 499175,
+   "releaseDate": "2026-09-23",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "upc": "9362531688180",
+   "link": "https://www.deezer.com/album/1101485652",
+   "apple": "https://music.apple.com/au/album/stay-single/6814811796?uo=4",
+   "cover": "/media/releases/1101485652.jpg"
+  }
+ ]
+}
