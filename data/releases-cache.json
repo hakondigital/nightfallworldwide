@@ -3043,6 +3043,24 @@
    "isOurs": true,
    "apple": "https://music.apple.com/au/album/adding-up-single/6818127507?uo=4"
   },
+  "1112240372": {
+   "id": 1112240372,
+   "title": "CARRION",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-10-07",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531687763",
+   "link": "https://www.deezer.com/album/1112240372",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/e77541c9393d36af3e615a4e56443098/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/carrion-single/6818523484?uo=4"
+  },
   "1114201092": {
    "id": 1114201092,
    "title": "Hazel",

@@ -1,7 +1,23 @@
 {
- "generatedAt": "2026-10-07T14:16:50.892Z",
+ "generatedAt": "2026-10-08T13:26:22.271Z",
  "label": "Nightfall Worldwide",
  "releases": [
+  {
+   "id": 1112240372,
+   "title": "CARRION",
+   "artists": [
+    "Ribby247"
+   ],
+   "artistId": 130861562,
+   "releaseDate": "2026-10-07",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531687763",
+   "link": "https://www.deezer.com/album/1112240372",
+   "apple": "https://music.apple.com/au/album/carrion-single/6818523484?uo=4",
+   "cover": "/media/releases/1112240372.jpg"
+  },
   {
    "id": 1114201092,
    "title": "Hazel",
@@ -113,22 +129,6 @@
    "link": "https://www.deezer.com/album/1101572452",
    "apple": "https://music.apple.com/au/album/sexmoneymurder-single/6814814360?uo=4",
    "cover": "/media/releases/1101572452.jpg"
-  },
-  {
-   "id": 1101485652,
-   "title": "Stay",
-   "artists": [
-    "Tyson"
-   ],
-   "artistId": 499175,
-   "releaseDate": "2026-09-23",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": false,
-   "upc": "9362531688180",
-   "link": "https://www.deezer.com/album/1101485652",
-   "apple": "https://music.apple.com/au/album/stay-single/6814811796?uo=4",
-   "cover": "/media/releases/1101485652.jpg"
   }
  ]
 }
