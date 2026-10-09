@@ -405,6 +405,29 @@ const Globe = forwardRef<GlobeHandle, Props>(function Globe(
           ctx.beginPath();
           ctx.arc(sx(q), syy(q), (4 + pulse * 18) * dpr, 0, Math.PI * 2);
           ctx.stroke();
+          // the home city gets a label too — same halo treatment, but set to the LEFT of the
+          // beacon so it never collides with Sydney's label just below it
+          if (cities && p.focus < 0.9) {
+            const a = clamp((q[2] - 0.08) / 0.25) * introE * (1 - clamp(p.focus / 0.6));
+            const home = CITIES[0];
+            const lx = sx(q) - 9 * dpr;
+            ctx.textAlign = "right";
+            ctx.font = `${10 * dpr}px ${fontFamily}`;
+            ctx.lineWidth = 3.5 * dpr;
+            ctx.strokeStyle = rgba(bg, a);
+            // stacked upward: Sydney's label sits one line below the beacon
+            const name = home.name.toUpperCase();
+            ctx.strokeText(name, lx, syy(q) - 14 * dpr);
+            ctx.fillStyle = rgba(rec, a);
+            ctx.fillText(name, lx, syy(q) - 14 * dpr);
+            if (home.sub) {
+              const sub = home.sub.toUpperCase();
+              ctx.strokeText(sub, lx, syy(q) - 2 * dpr);
+              ctx.fillStyle = rgba(col, a * 0.6);
+              ctx.fillText(sub, lx, syy(q) - 2 * dpr);
+            }
+            ctx.textAlign = "left";
+          }
         }
       }
       ctx.globalAlpha = 1;
