@@ -50,11 +50,12 @@ const TASMANIA: [number, number][] = [
   [-42.2, 145.25], [-41.5, 144.8],
 ];
 
-export type City = { name: string; sub?: string; lat: number; lon: number; hq?: boolean };
+/** `offset` moves a label away from its dot (CSS px) and draws a leader line back to it — for cities that sit close together. */
+export type City = { name: string; sub?: string; lat: number; lon: number; hq?: boolean; offset?: [number, number] };
 
 export const CITIES: City[] = [
-  { name: "Gold Coast", sub: "HQ · Ribby247", lat: -28.09, lon: 153.45, hq: true },
-  { name: "Sydney", sub: "4orttune · Jords · DON!", lat: -33.87, lon: 151.21 },
+  { name: "Gold Coast", sub: "HQ · Ribby247", lat: -28.09, lon: 153.45, hq: true, offset: [30, -40] },
+  { name: "Sydney", sub: "4orttune · Jords · DON!", lat: -33.87, lon: 151.21, offset: [30, 32] },
   { name: "Bali", sub: "MEZMURE", lat: -8.65, lon: 115.22 },
   { name: "Kinshasa, DRC", sub: "Kily Safari", lat: -4.32, lon: 15.31 },
   { name: "London", sub: "Gorillaz", lat: 51.51, lon: -0.13 },
@@ -333,6 +334,39 @@ const Globe = forwardRef<GlobeHandle, Props>(function Globe(
       if (arcs || cities) {
         const hq = fromLatLon(CITIES[0].lat, CITIES[0].lon);
         const t = now / 1000;
+        // One label routine for every city: knockout halo so it reads over land and lines,
+        // and, when the city carries an offset, a leader line from the dot to the text.
+        // Type and leaders scale with the globe, so big screens get legible labels too.
+        const fs = Math.max(10 * dpr, R * 0.035);
+        const k = fs / (10 * dpr);
+        const drawLabel = (c: City, q: V3, a: number, nameColor: [number, number, number]) => {
+          const [dx, dy] = c.offset ?? [8, 0];
+          const x0 = sx(q);
+          const y0 = syy(q);
+          const lx = x0 + dx * dpr * k;
+          const ly = y0 + dy * dpr * k;
+          ctx.font = `${fs}px ${fontFamily}`;
+          if (c.offset) {
+            ctx.lineWidth = Math.max(1 * dpr, fs * 0.08);
+            ctx.strokeStyle = rgba(nameColor, a * 0.85);
+            ctx.beginPath();
+            ctx.moveTo(x0 + Math.sign(dx) * 5 * dpr * k, y0 + Math.sign(dy) * 5 * dpr * k);
+            ctx.lineTo(lx - 5 * dpr * k, ly);
+            ctx.stroke();
+          }
+          ctx.lineWidth = fs * 0.35;
+          ctx.strokeStyle = rgba(bg, a);
+          const name = c.name.toUpperCase();
+          ctx.strokeText(name, lx, ly - fs * 0.2);
+          ctx.fillStyle = rgba(nameColor, a);
+          ctx.fillText(name, lx, ly - fs * 0.2);
+          if (c.sub) {
+            const sub = c.sub.toUpperCase();
+            ctx.strokeText(sub, lx, ly + fs);
+            ctx.fillStyle = rgba(col, a * 0.6);
+            ctx.fillText(sub, lx, ly + fs);
+          }
+        };
         CITIES.slice(1).forEach((c, ci) => {
           const to = fromLatLon(c.lat, c.lon);
           const omega = Math.acos(clamp(hq[0] * to[0] + hq[1] * to[1] + hq[2] * to[2], -1, 1));
@@ -373,21 +407,7 @@ const Globe = forwardRef<GlobeHandle, Props>(function Globe(
               ctx.lineWidth = 1.2 * dpr;
               ctx.strokeStyle = rgba(bg, a);
               ctx.stroke();
-              // label with a knockout halo so it reads over land and lines
-              ctx.font = `${10 * dpr}px ${fontFamily}`;
-              ctx.lineWidth = 3.5 * dpr;
-              ctx.strokeStyle = rgba(bg, a);
-              const lx = sx(q) + 8 * dpr;
-              const name = c.name.toUpperCase();
-              ctx.strokeText(name, lx, syy(q) - 2 * dpr);
-              ctx.fillStyle = rgba(col, a);
-              ctx.fillText(name, lx, syy(q) - 2 * dpr);
-              if (c.sub) {
-                const sub = c.sub.toUpperCase();
-                ctx.strokeText(sub, lx, syy(q) + 10 * dpr);
-                ctx.fillStyle = rgba(col, a * 0.6);
-                ctx.fillText(sub, lx, syy(q) + 10 * dpr);
-              }
+              drawLabel(c, q, a, col);
             }
           }
         });
@@ -405,28 +425,11 @@ const Globe = forwardRef<GlobeHandle, Props>(function Globe(
           ctx.beginPath();
           ctx.arc(sx(q), syy(q), (4 + pulse * 18) * dpr, 0, Math.PI * 2);
           ctx.stroke();
-          // the home city gets a label too — same halo treatment, but set to the LEFT of the
-          // beacon so it never collides with Sydney's label just below it
+          // the home city is labelled like the others, in the signal colour, led out to the north-east;
+          // it fades later than the rest so it stays readable for as long as the beacon is lit
           if (cities && p.focus < 0.9) {
-            const a = clamp((q[2] - 0.08) / 0.25) * introE * (1 - clamp(p.focus / 0.6));
-            const home = CITIES[0];
-            const lx = sx(q) - 9 * dpr;
-            ctx.textAlign = "right";
-            ctx.font = `${10 * dpr}px ${fontFamily}`;
-            ctx.lineWidth = 3.5 * dpr;
-            ctx.strokeStyle = rgba(bg, a);
-            // stacked upward: Sydney's label sits one line below the beacon
-            const name = home.name.toUpperCase();
-            ctx.strokeText(name, lx, syy(q) - 14 * dpr);
-            ctx.fillStyle = rgba(rec, a);
-            ctx.fillText(name, lx, syy(q) - 14 * dpr);
-            if (home.sub) {
-              const sub = home.sub.toUpperCase();
-              ctx.strokeText(sub, lx, syy(q) - 2 * dpr);
-              ctx.fillStyle = rgba(col, a * 0.6);
-              ctx.fillText(sub, lx, syy(q) - 2 * dpr);
-            }
-            ctx.textAlign = "left";
+            const a = clamp((q[2] + 0.05) / 0.3) * introE * (1 - clamp(p.focus / 0.6));
+            drawLabel(CITIES[0], q, a, rec);
           }
         }
       }
