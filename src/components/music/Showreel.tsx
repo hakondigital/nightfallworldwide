@@ -48,7 +48,9 @@ export default function Showreel({ base, poster, title, caption, file }: Props) 
           });
           tl.fromTo(
             q("[data-frame]"),
-            { clipPath: desktop ? "inset(24% 30% 24% 30% round 2px)" : "inset(30% 8% 30% 8% round 2px)" },
+            // start as a generous framed video, not a thumbnail — on big screens the old
+            // 24%/30% insets left most of the viewport black before the scroll kicked in
+            { clipPath: desktop ? "inset(10% 18% 10% 18% round 2px)" : "inset(16% 6% 16% 6% round 2px)" },
             { clipPath: "inset(0% 0% 0% 0% round 0px)", duration: 0.6 },
             0,
           )
@@ -72,9 +74,9 @@ export default function Showreel({ base, poster, title, caption, file }: Props) 
   };
 
   return (
-    <Section ref={root} theme="night" className="h-[190svh] motion-reduce:h-svh" aria-label={`${title.join(" ")} showreel`}>
+    <Section ref={root} theme="night" className="h-[170svh] motion-reduce:h-svh" aria-label={`${title.join(" ")} showreel`}>
       <div className="sticky top-0 h-svh overflow-hidden">
-        <div data-frame className="absolute inset-0 overflow-hidden" style={{ clipPath: "inset(24% 30% 24% 30%)" }}>
+        <div data-frame className="absolute inset-0 overflow-hidden" style={{ clipPath: "inset(10% 18% 10% 18%)" }}>
           <div data-video className="absolute inset-0">
             <Video ref={video} base={base} poster={poster} onTime={onTime} />
           </div>
