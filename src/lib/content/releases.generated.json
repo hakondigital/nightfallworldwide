@@ -1,7 +1,39 @@
 {
- "generatedAt": "2026-10-08T13:26:22.271Z",
+ "generatedAt": "2026-10-09T13:14:11.163Z",
  "label": "Nightfall Worldwide",
  "releases": [
+  {
+   "id": 1114126512,
+   "title": "OFF WHITE",
+   "artists": [
+    "Detchi"
+   ],
+   "artistId": 167395457,
+   "releaseDate": "2026-10-09",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531713653",
+   "link": "https://www.deezer.com/album/1114126512",
+   "apple": "https://music.apple.com/au/album/off-white-single/6819258818?uo=4",
+   "cover": "/media/releases/1114126512.jpg"
+  },
+  {
+   "id": 1076494622,
+   "title": "One round",
+   "artists": [
+    "D3TOX"
+   ],
+   "artistId": 183063467,
+   "releaseDate": "2026-10-09",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531663439",
+   "link": "https://www.deezer.com/album/1076494622",
+   "apple": "https://music.apple.com/au/album/one-round-single/6811050158?uo=4",
+   "cover": "/media/releases/1076494622.jpg"
+  },
   {
    "id": 1112240372,
    "title": "CARRION",
@@ -97,38 +129,6 @@
    "link": "https://www.deezer.com/album/1103652602",
    "apple": "https://music.apple.com/au/album/right-now-single/6815650263?uo=4",
    "cover": "/media/releases/1103652602.jpg"
-  },
-  {
-   "id": 1101566652,
-   "title": "JELLYBEAN",
-   "artists": [
-    "Sino!"
-   ],
-   "artistId": 199201687,
-   "releaseDate": "2026-09-25",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": false,
-   "upc": "9362531688883",
-   "link": "https://www.deezer.com/album/1101566652",
-   "apple": "https://music.apple.com/au/album/jellybean-single/6814807339?uo=4",
-   "cover": "/media/releases/1101566652.jpg"
-  },
-  {
-   "id": 1101572452,
-   "title": "SEXMONEYMURDER",
-   "artists": [
-    "Ribby247"
-   ],
-   "artistId": 130861562,
-   "releaseDate": "2026-09-23",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": true,
-   "upc": "9362531687749",
-   "link": "https://www.deezer.com/album/1101572452",
-   "apple": "https://music.apple.com/au/album/sexmoneymurder-single/6814814360?uo=4",
-   "cover": "/media/releases/1101572452.jpg"
   }
  ]
 }
