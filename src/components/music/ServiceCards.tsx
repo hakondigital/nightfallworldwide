@@ -3,6 +3,7 @@
 import { useBooking } from "@/components/booking/Booking";
 import { TLink } from "@/components/providers/Transition";
 import { Arrow } from "@/components/ui/Icons";
+import { aud, mixFrom } from "@/lib/content/services";
 import { site } from "@/lib/content/site";
 
 type Card = {
@@ -18,7 +19,7 @@ const CARDS: Card[] = [
   {
     code: "01",
     title: "Mixing & Mastering",
-    price: "From A$300 / track",
+    price: `From ${aud(mixFrom)} / track`,
     sub: "Nightfall Collective, 3× Grammy-nominated Mike Snell, or DON!",
     primary: { label: "Book a mix", action: "mix" },
     secondary: { label: "Engineers & pricing", href: "/mixing-mastering" },

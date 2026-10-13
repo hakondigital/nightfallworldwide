@@ -66,10 +66,11 @@ export const team: Member[] = [
     role: "Songwriter / Producer / A&R",
     portrait: "team-mezmure",
     alt: "mezmure-hat",
-    headline: "His real first name means ‘music’ in ancient Amharic.",
+    headline: "Art as a bridge between modern life and deeper consciousness.",
     bio: [
-      "MEZMURE (F.K.A. Pharaoh SWAMi) arrived in New Zealand with his family as a refugee from Ethiopia — an outrageously charismatic artist whose real first name means ‘music’ in ancient Amharic.",
-      "Synaesthesia coupled with a love for nature birthed his beautiful, raw and ethnic sound. Coupled with his ability to hear melodies and understand modern song structures, A&R was the natural progression from his artistry into the world of artist development.",
+      "MEZMURE is a multidisciplinary artist and world-builder creating sonic and visual experiences rooted in spirituality, culture, emotion, and human connection.",
+      "Through music, cinematic storytelling, and immersive creative direction, he explores themes of identity, transcendence, intimacy, and ancestral memory — using art as a bridge between modern life and deeper consciousness.",
+      "MEZMURE merges Afro-diasporic energy with modern futurism — transforming art into ritual, memory, and transcendence. His work exists at the intersection of frequency, movement, ritual, and future-facing culture.",
     ],
   },
   {

@@ -7,13 +7,12 @@ import BookButton from "@/components/ui/BookButton";
 import PageHero, { HeroAction, Rule } from "@/components/ui/PageHero";
 import { Stagger } from "@/components/ui/Reveal";
 import Section from "@/components/ui/Section";
-import { fileSpecs, products, terms, type TermsKey } from "@/lib/content/services";
+import { aud, fileSpecs, mixFrom, mixRates, products, terms, type TermsKey } from "@/lib/content/services";
 import { site } from "@/lib/content/site";
 
 export const metadata: Metadata = {
-  title: "Mixing & Mastering — Grammy-nominated engineers",
-  description:
-    "Book mixing and mastering with the Nightfall Collective, 3× Grammy-nominated engineer Mike Snell or Sydney producer-engineer DON! (Don Sahand). From A$300 per track, 3 revisions included, ~7 business day turnaround.",
+  title: `Mixing & Mastering — from ${aud(mixFrom)} per track`,
+  description: `Book mixing and mastering with the Nightfall Collective, 3× Grammy-nominated engineer Mike Snell or Sydney producer-engineer DON! (Don Sahand). Two tracks for ${aud(mixRates.collective)} on the 2 for 1 deal, ${aud(mixRates.collective)} per single track, 3 revisions included, ~7 business day turnaround.`,
   alternates: { canonical: "/mixing-mastering" },
 };
 
@@ -35,14 +34,14 @@ export default function MixPage() {
         title="Mixing & Mastering"
         lede="Radio-ready mixing and mastering — from our in-house Nightfall Collective to 3× Grammy-nominated Mike Snell and Sydney producer-engineer DON!."
         aside={
-          <HeroAction label="From" value="A$300 per track" note="3 revisions included · about 7 business days">
+          <HeroAction label="From" value={`${aud(mixFrom)} per track`} note={`On the 2 for 1 deal · single tracks ${aud(mixRates.collective)} · 3 revisions included`}>
             <BookButton tab="mix">Book a mix</BookButton>
           </HeroAction>
         }
       />
 
       <Section theme="day" id="engineers" className="pad-x scroll-mt-32">
-        <Rule left="Choose your engineer" right="Grammy-nominated options" />
+        <Rule left="Choose your engineer" right="In-house · Mike Snell · DON!" />
         <div className="mt-6">
           <EngineerCards />
         </div>

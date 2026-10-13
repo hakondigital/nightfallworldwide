@@ -21,7 +21,10 @@ jobs:
         with:
           node-version: 22
 
-      - name: Fetch the label's releases from Deezer
+      - name: Fetch the label's releases from Deezer (and match them on Spotify)
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
         run: node scripts/sync-releases.mjs
 
       - name: Commit the feed if it changed

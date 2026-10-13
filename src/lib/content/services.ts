@@ -1,6 +1,24 @@
 import type { MediaName } from "@/lib/media.generated";
 import { site } from "./site";
 
+export const aud = (n: number) => `A$${n.toLocaleString("en-AU")}`;
+
+// ── Mixing & mastering rates (AUD, per track) ───────────────────
+// The single-track rates are what the old shop charged at checkout. The 2 for 1
+// deal is two tracks for the Collective's single-track rate — which is where the
+// "from A$300 per track" headline comes from. Every "was" price, saving and
+// order estimate on the site is derived from these, so a change here is enough.
+export const mixRates = {
+  collective: 600,
+  snell: 1000,
+  /** Mike Snell's two-track deal — the old shop's price: under 2 × his rate, but not a true 2 for 1. */
+  snellPair: 1200,
+  /** 13–24 stems add this much per track, deals included. */
+  bigSession: 100,
+};
+/** Effective per-track rate on the 2 for 1 deal — the headline figure. */
+export const mixFrom = mixRates.collective / 2;
+
 // ── Bookable packages (live in Acuity — ids open that package's calendar) ──
 export type Package = { id: string; name: string; note: string; price: number; hours: number };
 
@@ -10,12 +28,14 @@ export const studioPackages: Package[] = [
   { id: "40882436", name: "Studio — 8 hours", note: "Dry hire", price: 495, hours: 8 },
   { id: "62441314", name: "Studio + engineer — 8 hours", note: "With a Nightfall engineer", price: 935, hours: 8 },
 ];
+/** One hour in the studio with an engineer, at the 4-hour package rate (to the nearest $5). */
+const studioHourWithEngineer = Math.round(studioPackages[1].price / studioPackages[1].hours / 5) * 5;
 
 export const whitewallPackages: Package[] = [
   { id: "82129271", name: "2 hours", note: "Quick shoot", price: 200, hours: 2 },
   { id: "82129886", name: "Half day — 4 hours", note: "Most booked", price: 400, hours: 4 },
   { id: "82131109", name: "Full day — 8 hours", note: "Campaign day", price: 800, hours: 8 },
-  { id: "82343459", name: "Day/Night — 12 hours", note: "Big productions", price: 1000, hours: 12 },
+  { id: "82343459", name: "Day/Night — 12 hours", note: "Big productions · 12 hours for the price of 10", price: 1000, hours: 12 },
 ];
 
 // ── Mixing & mastering engineers ────────────────────────────────
@@ -25,6 +45,7 @@ export type Engineer = {
   badge: string;
   credit: string;
   price: string;
+  deal?: string; // what the 2 for 1 deal makes the per-track rate
   perTrack?: number; // AUD, for the order estimate
   image?: MediaName;
   link?: { label: string; href: string };
@@ -36,8 +57,9 @@ export const engineers: Engineer[] = [
     name: "Nightfall Collective",
     badge: "In-house engineers",
     credit: "The Nightfall engineering team — award-winning mixes across hip-hop, R&B, EDM, pop and more.",
-    price: "From A$300 per track",
-    perTrack: 300,
+    price: `${aud(mixRates.collective)} per track`,
+    deal: `${aud(mixFrom)} per track on the 2 for 1 deal`,
+    perTrack: mixRates.collective,
     image: "studio-control-room",
   },
   {
@@ -45,8 +67,8 @@ export const engineers: Engineer[] = [
     name: "Mike Snell",
     badge: "3× Grammy-nominated",
     credit: "Kanye West, Teyana Taylor, Pusha T, Rick Ross, Kodak Black, Ty Dolla $ign, NLE Choppa and more.",
-    price: "A$1,000 per track",
-    perTrack: 1000,
+    price: `${aud(mixRates.snell)} per track`,
+    perTrack: mixRates.snell,
     image: "team-mike-snell",
     link: { label: "Credits on Muso.ai", href: site.links.mikeSnellCredits },
   },
@@ -54,7 +76,7 @@ export const engineers: Engineer[] = [
     // TODO(client): confirm DON!'s per-track rate.
     slug: "don",
     name: "DON!",
-    badge: "Sydney · produced for Grammy-winner Daya",
+    badge: "Sydney · Daya, Ta-ku, Kobie Dee",
     credit: "Don Sahand — Sydney producer, mixing and mastering engineer. Credits include Daya, Jords, 4orttune, Kobie Dee, Ta-ku, Young Franco and Cult Shφtta.",
     price: "Price on request",
     image: "team-don",
@@ -103,8 +125,8 @@ export const licenceRates = [
   {
     title: "Mixing & mastering",
     rows: [
-      { label: "Standard mix & master", detail: "Per track", price: "from $300" },
-      { label: "Mike Snell mix & master", detail: "3× Grammy-nominated", price: "$1,000" },
+      { label: "Standard mix & master", detail: "Per track · two for the price of one on the 2 for 1 deal", price: `$${mixRates.collective.toLocaleString("en-AU")}` },
+      { label: "Mike Snell mix & master", detail: "3× Grammy-nominated", price: `$${mixRates.snell.toLocaleString("en-AU")}` },
     ],
   },
   {
@@ -191,8 +213,7 @@ export const products: Product[] = [
     name: "2 for 1 Mixing & Mastering",
     kicker: "Limited-time offer",
     image: "studio-control-room",
-    blurb:
-      "Buy mixing and mastering for one track and get a second track mixed and mastered free. Industry-standard mixing and mastering that gives your music the clarity, depth and professional polish it deserves.",
+    blurb: `Two tracks mixed and mastered for the price of one with the Nightfall Collective — or both by Mike Snell for ${aud(mixRates.snellPair)}, ${aud(2 * mixRates.snell - mixRates.snellPair)} under his per-track rate. Industry-standard mixing and mastering that gives your music the clarity, depth and professional polish it deserves.`,
     points: [
       { title: "Crystal-clear mixing", body: "Balancing every element for a professional, radio-ready sound." },
       { title: "Studio-quality mastering", body: "Loudness, depth and dynamics for every streaming platform." },
@@ -203,11 +224,12 @@ export const products: Product[] = [
       { name: "Engineer", values: ["Nightfall Collective", "Mike Snell"] },
       { name: "Stems", values: ["1–12 stems", "13–24 stems"] },
     ],
+    // The pair price, against what two tracks cost at the single-track rate.
     variants: [
-      { key: "Nightfall Collective|1–12 stems", price: 600, was: 1200 },
-      { key: "Nightfall Collective|13–24 stems", price: 700, was: 1400 },
-      { key: "Mike Snell|1–12 stems", price: 1200, was: 2400 },
-      { key: "Mike Snell|13–24 stems", price: 1300, was: 2600 },
+      { key: "Nightfall Collective|1–12 stems", price: mixRates.collective, was: 2 * mixRates.collective },
+      { key: "Nightfall Collective|13–24 stems", price: mixRates.collective + mixRates.bigSession, was: 2 * (mixRates.collective + mixRates.bigSession) },
+      { key: "Mike Snell|1–12 stems", price: mixRates.snellPair, was: 2 * mixRates.snell },
+      { key: "Mike Snell|13–24 stems", price: mixRates.snellPair + mixRates.bigSession, was: 2 * (mixRates.snell + mixRates.bigSession) },
     ],
     terms: "mix",
   },
@@ -227,13 +249,12 @@ export const products: Product[] = [
       "Afterpay available on request — email admin@nightfallworldwide.com or DM us on Instagram for a payment link.",
       "*Mixing and mastering covers a single beat .wav and vocals recorded on the day. Extra stems may incur additional fees and are subject to studio approval.",
     ],
-    variants: [{ key: "", price: 350, was: 850 }],
+    // The parts at list price: a mix & master plus an hour in the studio with an engineer.
+    variants: [{ key: "", price: 350, was: mixRates.collective + studioHourWithEngineer }],
     stock: "8 spots per month",
     terms: "spotlight",
   },
 ];
-
-export const aud = (n: number) => `A$${n.toLocaleString("en-AU")}`;
 
 /**
  * Payment links per product variant (e.g. Stripe Payment Links).

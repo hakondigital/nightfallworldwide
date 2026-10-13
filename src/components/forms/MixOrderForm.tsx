@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { Arrow } from "@/components/ui/Icons";
-import { aud, engineers, products } from "@/lib/content/services";
+import { aud, engineers, mixRates, products } from "@/lib/content/services";
 import { site } from "@/lib/content/site";
 import { endpoints, submitForm } from "@/lib/submit";
 import { cn } from "@/lib/utils";
@@ -10,19 +10,17 @@ import { cn } from "@/lib/utils";
 export const PACKAGES = ["Mix & master", "2 for 1 deal", "Artist Spotlight session"] as const;
 type Pkg = (typeof PACKAGES)[number];
 const STEMS = ["1–12 stems", "13–24 stems"];
-/** Bigger sessions cost a little more per track — the same step as the 2 for 1 variants. */
-const STEMS_EXTRA = 100;
+const dealVariant = (engineerName: string, stems: string) => products.find((p) => p.slug === "2-for-1")?.variants.find((x) => x.key === `${engineerName}|${stems}`);
 
 function estimate(engineerSlug: string, pkg: Pkg, stems: string, tracks: number) {
   const eng = engineers.find((e) => e.slug === engineerSlug);
   if (!eng?.perTrack) return null;
   if (pkg === "Artist Spotlight session") return products.find((p) => p.slug === "artist-spotlight")?.variants[0].price ?? null;
   if (pkg === "2 for 1 deal") {
-    const deal = products.find((p) => p.slug === "2-for-1");
-    const v = deal?.variants.find((x) => x.key === `${eng.name}|${stems}`);
-    return v ? v.price * (tracks / 2) : null; // sold in pairs: one paid, one free
+    const v = dealVariant(eng.name, stems);
+    return v ? v.price * (tracks / 2) : null; // sold in pairs
   }
-  return (eng.perTrack + (stems === STEMS[1] ? STEMS_EXTRA : 0)) * tracks;
+  return (eng.perTrack + (stems === STEMS[1] ? mixRates.bigSession : 0)) * tracks;
 }
 
 /** Order a mix: pick the engineer, tell us the size of the job, get an estimate. */
@@ -39,6 +37,10 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
   const spotlight = pkg === "Artist Spotlight session";
   const deal = pkg === "2 for 1 deal";
   const step = deal ? 2 : 1;
+  // Two or more tracks at the single rate? The deal is cheaper — say so.
+  const dealTracks = Math.ceil(tracks / 2) * 2;
+  const dealPrice = pkg === "Mix & master" && tracks >= 2 ? dealVariant(eng.name, stems)?.price : undefined;
+  const dealEst = dealPrice !== undefined && est !== null && dealPrice * (dealTracks / 2) < est ? dealPrice * (dealTracks / 2) : null;
   const choosePkg = (p: Pkg) => {
     setPkg(p);
     // the 2 for 1 deal comes in pairs — one paid, one free
@@ -143,7 +145,7 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
                 </button>
               ))}
             </div>
-            <p className="t-label mt-2 text-muted">13–24 stems: +{aud(STEMS_EXTRA)} per track</p>
+            <p className="t-label mt-2 text-muted">13–24 stems: +{aud(mixRates.bigSession)} per track</p>
           </fieldset>
           <fieldset>
             <legend className="t-label mb-3 text-muted">Tracks</legend>
@@ -167,9 +169,16 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
         </div>
       )}
 
-      <div className="flex items-end justify-between gap-4 border-y border-line py-4">
-        <span className="t-label text-muted">Estimate</span>
-        <span className="t-price text-[clamp(1.6rem,2.4vw,2.2rem)]">{est ? `from ${aud(est)}` : "Quote on request"}</span>
+      <div className="flex flex-col gap-2 border-y border-line py-4">
+        <div className="flex items-end justify-between gap-4">
+          <span className="t-label text-muted">Estimate</span>
+          <span className="t-price text-[clamp(1.6rem,2.4vw,2.2rem)]">{est ? `from ${aud(est)}` : "Quote on request"}</span>
+        </div>
+        {dealEst !== null && (
+          <button type="button" onClick={() => choosePkg("2 for 1 deal")} className="t-label u-draw self-end text-rec">
+            Or {dealTracks} tracks for {aud(dealEst)} on the 2 for 1 deal →
+          </button>
+        )}
       </div>
 
       <div className="grid gap-x-6 gap-y-5 sm:grid-cols-2">

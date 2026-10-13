@@ -50,6 +50,7 @@ The landing page (`/`) is only the globe, the wordmark and the three doors into 
 ### Common edits
 
 - **Change a price or package** — `studioPackages` / `whitewallPackages` in `services.ts`. Each `id` is the Acuity appointment type, so its **Book** button opens that package's calendar directly.
+- **Mix & master prices** — `mixRates` in `services.ts`: the single-track rates (Collective, Mike Snell), Mike's two-track deal price and the 13–24-stem step. The 2 for 1 variants, every "was" price and saving, the "from A$300 per track" headline and the order-form estimate are all derived from them.
 - **Add or edit a mix engineer** — `engineers` in `services.ts`. `perTrack` drives the estimate in the order form; leave it out for "price on request". DON!'s per-track rate is still to confirm (marked `TODO(client)`).
 - **Artists** — `artists.ts`. `page: true` gives an artist a profile at `/music/<slug>`; everyone else links to Spotify.
 
@@ -67,6 +68,8 @@ Reference images by file name (without extension), e.g. `<Media name="studio-con
 ## Latest releases feed
 
 The Music page's **Latest releases** and **Releasing soon** sections fill themselves. Every release Nightfall distributes reaches Deezer tagged with the label name, and Deezer's catalogue API is public, so `scripts/sync-releases.mjs` searches by label, keeps the newest releases plus anything with a future date, saves the covers to `public/media/releases/` and writes `src/lib/content/releases.generated.json`. No artist list to maintain.
+
+Deezer is only where the catalogue is _read_. Every card sends people to Spotify: the exact record when it's in `tracks.ts` or the sync matched it, else the artist's profile from `artists.ts`, else a Spotify search for the record. To match every release exactly, give the sync a Spotify app's credentials — `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` in `.env` locally and as repository secrets on GitHub (see `.env.example`). Apple Music links come from Apple's free barcode lookup.
 
 A GitHub Action (`.github/workflows/sync-releases.yml`) runs it every six hours and commits only when something changed, which triggers a Cloudflare deploy. Run it locally with `npm run releases`. "Releasing soon" appears only when the distributor has delivered a release ahead of its date.
 

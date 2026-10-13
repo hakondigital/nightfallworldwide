@@ -3,13 +3,12 @@ import { TLink } from "@/components/providers/Transition";
 import BookButton from "@/components/ui/BookButton";
 import PageHero, { Rule, StreamsStat } from "@/components/ui/PageHero";
 import Section from "@/components/ui/Section";
-import { bulkNote, distribution, engineers, licenceRates, products, studioRates, whitewall } from "@/lib/content/services";
+import { aud, bulkNote, distribution, engineers, licenceRates, mixFrom, mixRates, products, studioRates, whitewall } from "@/lib/content/services";
 import { site } from "@/lib/content/site";
 
 export const metadata: Metadata = {
   title: "Rates & licences 2025/26",
-  description:
-    "Nightfall Studios price list 2025/26: studio dry hire from $319, engineering from $220, beat licences from $150, mixing & mastering from $300, Mike Snell mix & master $1,000, distribution at 20%.",
+  description: `Nightfall Studios price list 2025/26: studio dry hire from $319, engineering from $220, beat licences from $150, mixing & mastering ${aud(mixRates.collective)} per track or two for ${aud(mixRates.collective)} on the 2 for 1 deal, Mike Snell ${aud(mixRates.snell)}, distribution at 20%.`,
   alternates: { canonical: "/rates" },
 };
 
@@ -71,8 +70,8 @@ export default function RatesPage() {
 
         <Rule left="Mixing & mastering" right={<TLink href="/mixing-mastering" className="u-draw">Book a mix →</TLink>} className={gap} />
         <div className="mt-6 grid gap-x-(--gap) gap-y-10 md:grid-cols-2">
-          <Sheet title="Choose your engineer" rows={engineers.map((e) => ({ label: e.name, detail: e.badge, price: e.price.replace(/ per track$/, "").replace("A$", "$").replace(/^From/, "from") }))} note="Per track." />
-          <Sheet title="Deals" rows={deals} note="2 for 1: buy mixing & mastering for one track, get a second free. Artist Spotlight runs monthly with 8 spots." />
+          <Sheet title="Choose your engineer" rows={engineers.map((e) => ({ label: e.name, detail: e.badge, price: e.price.replace(/ per track$/, "").replace("A$", "$").replace(/^From/, "from") }))} note={`Per track · 13–24 stems add $${mixRates.bigSession}. Two tracks for the price of one with the Collective on the 2 for 1 deal (${aud(mixFrom)} each).`} />
+          <Sheet title="Deals" rows={deals} note={`2 for 1: two tracks for the price of one with the Collective, or two by Mike Snell for ${aud(mixRates.snellPair)}. Artist Spotlight runs monthly with 8 spots.`} />
         </div>
 
         <Rule left="Beats & licences" right={<a href={site.links.beats} target="_blank" rel="noreferrer" className="u-draw">Browse beats ↗</a>} className={gap} />

@@ -24,6 +24,7 @@ export default function EngineerCards() {
               <span className="t-label text-rec">{e.badge}</span>
               <h3 className="t-m">{e.name}</h3>
               <p className="t-price text-[1.15rem]">{e.price}</p>
+              {e.deal && <p className="t-label text-muted">{e.deal}</p>}
             </div>
           </div>
           <div className="flex flex-1 flex-col gap-3 px-4 pb-4 md:p-5">
@@ -35,7 +36,10 @@ export default function EngineerCards() {
                 {e.link.label} ↗
               </a>
             )}
-            <p className="t-price mt-auto hidden pt-2 text-[1.35rem] md:block">{e.price}</p>
+            <div className="mt-auto hidden flex-col gap-1 pt-2 md:flex">
+              <p className="t-price text-[1.35rem]">{e.price}</p>
+              {e.deal && <p className="t-label text-muted">{e.deal}</p>}
+            </div>
             <button
               onClick={() => booking.open("mix", { engineer: e.slug })}
               className="group t-wide-s flex items-center justify-between gap-3 bg-fg px-4 py-3.5 text-bg transition-colors hover:bg-rec"

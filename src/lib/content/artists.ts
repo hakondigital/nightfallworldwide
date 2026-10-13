@@ -47,10 +47,11 @@ export const artists: Artist[] = [
     tags: ["Songwriter", "Producer", "A&R"],
     owner: "mezmure",
     page: true,
-    lede: "Who would’ve thought that an Ethiopian refugee from Sudan, who grew up in NZ and relocated from Australia’s sunny Gold Coast to New York City, would create his own lane in the world of country music.",
+    lede: "MEZMURE is a multidisciplinary artist and world-builder creating sonic and visual experiences rooted in spirituality, culture, emotion, and human connection.",
     bio: [
-      "Growing up on gospel and blues, this country-inspired pop artist is anticipated to set the tone and compete with the greats. Introducing Mezmure, the multi-talented gunslinger. A cohesive six-track project is led by his debut single, Hoedown — a song about addiction, women, and the everyday struggle of bills and missed car payments that illustrates the relatable lifestyle of a black cowboy navigating the perils of the wild western world.",
-      "MEZMURE (F.K.A. Pharaoh SWAMi) arrived in New Zealand with his family as a refugee from Ethiopia. An outrageously charismatic artist whose real first name means ‘music’ in ancient Amharic, his synaesthesia coupled with a love for nature birthed his beautiful, raw and ethnic sound. Combined with an ear for melody and modern song structure, A&R was the natural progression from his artistry into the world of artist development.",
+      "Through music, cinematic storytelling, and immersive creative direction, he explores themes of identity, transcendence, intimacy, and ancestral memory — using art as a bridge between modern life and deeper consciousness.",
+      "MEZMURE merges Afro-diasporic energy with modern futurism — transforming art into ritual, memory, and transcendence.",
+      "His work exists at the intersection of frequency, movement, ritual, and future-facing culture.",
     ],
     releases: [
       {
