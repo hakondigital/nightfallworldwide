@@ -1,10 +1,11 @@
 "use client";
 
 import { useState } from "react";
+import Honeypot from "@/components/forms/Honeypot";
 import { Arrow } from "@/components/ui/Icons";
+import { formInbox, HONEYPOT } from "@/lib/content/forms";
 import { aud, engineers, mixRates, products } from "@/lib/content/services";
-import { site } from "@/lib/content/site";
-import { endpoints, submitForm } from "@/lib/submit";
+import { submitForm } from "@/lib/submit";
 import { cn } from "@/lib/utils";
 
 export const PACKAGES = ["Mix & master", "2 for 1 deal", "Artist Spotlight session"] as const;
@@ -62,11 +63,11 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
       phone: String(fd.get("phone") ?? ""),
       files: String(fd.get("files") ?? ""),
       notes: String(fd.get("notes") ?? ""),
+      [HONEYPOT]: String(fd.get(HONEYPOT) ?? ""),
     };
     setStatus("sending");
     try {
-      const r = await submitForm(endpoints.mix, data, {
-        to: site.email.studio,
+      const r = await submitForm("mix", data, {
         subject: `Mix & master order — ${eng.name}`,
         labels: {
           engineer: "Engineer",
@@ -99,7 +100,7 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
         <p className="t-body max-w-md text-muted">
           {status === "done"
             ? "Thanks — we’ll confirm your quote, turnaround and payment details by email."
-            : `We’ve drafted your order email — just press send. If nothing opened, write to ${site.email.studio}.`}
+            : `We’ve drafted your order email — just press send. If nothing opened, write to ${formInbox.mix}.`}
         </p>
         <button className="t-label u-draw self-start" onClick={() => setStatus("idle")}>
           Place another order
@@ -112,6 +113,7 @@ export default function MixOrderForm({ defaultEngineer, defaultPackage, classNam
 
   return (
     <form onSubmit={onSubmit} className={cn("flex flex-col gap-7", className)}>
+      <Honeypot />
       <fieldset>
         <legend className="t-label mb-3 text-muted">Engineer</legend>
         <div className="flex flex-wrap gap-2">

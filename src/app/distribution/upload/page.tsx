@@ -5,7 +5,6 @@ import Section from "@/components/ui/Section";
 import { uploadForm } from "@/lib/content/forms";
 import { fileSpecs } from "@/lib/content/services";
 import { site } from "@/lib/content/site";
-import { endpoints } from "@/lib/submit";
 
 export const metadata: Metadata = {
   title: "Join the label — upload a release",
@@ -49,7 +48,7 @@ export default function UploadPage() {
       />
       <Section theme="day" className="pad-x pb-[clamp(60px,8vw,110px)]">
         <Rule left="Release form" right="About 5 minutes" className="mb-8" />
-        <FormStepper def={uploadForm} endpoint={endpoints.upload} />
+        <FormStepper def={uploadForm} />
         <p className="t-label mt-10 text-muted">Trouble with the form? Email {site.email.studio}.</p>
       </Section>
     </>

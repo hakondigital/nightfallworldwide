@@ -1,6 +1,26 @@
+import { site } from "@/lib/content/site";
+
 // Field definitions migrated from the Squarespace /uploadform block,
 // grouped into steps for the stepper UI. (Playlist pitching is handled
 // by the label directly — Kinch sends artists the form himself.)
+
+/** Which form a submission came from. The `/api/send` route turns this into an inbox. */
+export type FormKind = "enquiry" | "studio" | "mix" | "upload";
+
+/**
+ * Where each form lands. studio@ takes bookings (sessions, WhiteWall); admin@
+ * takes mix & master orders and enquiries, questions, contracts and film
+ * briefs; distribution@ takes release uploads. Also the mailto fallback address.
+ */
+export const formInbox: Record<FormKind, string> = {
+  enquiry: site.email.admin,
+  studio: site.email.studio,
+  mix: site.email.admin,
+  upload: site.email.distribution,
+};
+
+/** Name of the hidden anti-spam field — see components/forms/Honeypot. */
+export const HONEYPOT = "website";
 
 export type FieldType = "text" | "email" | "tel" | "url" | "date" | "textarea" | "choice" | "multi";
 
@@ -21,18 +41,16 @@ export type Step = { title: string; intro?: string; fields: Field[] };
 export type FormDef = {
   id: "upload" | "enquiry";
   title: string;
-  to: string; // fallback email recipient
+  kind: FormKind;
   subject: string;
-  endpointEnv: string; // NEXT_PUBLIC_* var holding a Formspree endpoint
   steps: Step[];
 };
 
 export const uploadForm: FormDef = {
   id: "upload",
   title: "Upload a release",
-  to: "distribution@nightfallworldwide.com",
+  kind: "upload",
   subject: "Release upload",
-  endpointEnv: "NEXT_PUBLIC_FORMSPREE_UPLOAD",
   steps: [
     {
       title: "Account",

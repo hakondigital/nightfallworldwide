@@ -1,22 +1,23 @@
 "use client";
 
 import { useState } from "react";
+import Honeypot from "@/components/forms/Honeypot";
 import { Arrow } from "@/components/ui/Icons";
-import { enquiryTopics, filmTopics } from "@/lib/content/forms";
-import { site } from "@/lib/content/site";
-import { endpoints, submitForm } from "@/lib/submit";
+import { enquiryTopics, filmTopics, formInbox, HONEYPOT } from "@/lib/content/forms";
+import { submitForm } from "@/lib/submit";
 import { cn } from "@/lib/utils";
 
 type Props = { defaultTopic?: string; topics?: string[]; className?: string; compact?: boolean };
 
-/** These are bookings, so they go to the studio inbox; the rest go to admin. */
-const BOOKING_TOPICS = ["Studio session", "Mix & master", "WhiteWall"];
+/** These are bookings, so they go to the studio inbox; the rest (mix & master included) go to admin. */
+const BOOKING_TOPICS = ["Studio session", "WhiteWall"];
 
 export default function EnquiryForm({ defaultTopic, topics, className, compact }: Props) {
   const list = topics ?? (defaultTopic && filmTopics.includes(defaultTopic) ? filmTopics : enquiryTopics);
   const [topic, setTopic] = useState(defaultTopic ?? list[0]);
   const booking = BOOKING_TOPICS.includes(topic);
-  const to = booking ? site.email.studio : site.email.admin;
+  const kind = booking ? "studio" : "enquiry";
+  const to = formInbox[kind];
   const [status, setStatus] = useState<"idle" | "sending" | "done" | "mail" | "error">("idle");
   const [error, setError] = useState("");
 
@@ -29,11 +30,11 @@ export default function EnquiryForm({ defaultTopic, topics, className, compact }
       email: String(fd.get("email") ?? ""),
       phone: String(fd.get("phone") ?? ""),
       message: String(fd.get("message") ?? ""),
+      [HONEYPOT]: String(fd.get(HONEYPOT) ?? ""),
     };
     setStatus("sending");
     try {
-      const r = await submitForm(booking ? endpoints.studio : endpoints.enquiry, data, {
-        to,
+      const r = await submitForm(kind, data, {
         subject: `Website enquiry — ${topic}`,
         labels: { topic: "Topic", name: "Name", email: "Email", phone: "Phone", message: "Message" },
       });
@@ -66,6 +67,7 @@ export default function EnquiryForm({ defaultTopic, topics, className, compact }
 
   return (
     <form onSubmit={onSubmit} className={cn("flex flex-col gap-7", className)}>
+      <Honeypot />
       <fieldset>
         <legend className="t-label mb-3 text-muted">What’s it about?</legend>
         <div className="flex flex-wrap gap-2">

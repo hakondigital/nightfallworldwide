@@ -2,8 +2,9 @@
 
 import { useRef, useState } from "react";
 import { useLenis } from "@/components/providers/SmoothScroll";
+import Honeypot from "@/components/forms/Honeypot";
 import { Arrow } from "@/components/ui/Icons";
-import type { Field, FormDef } from "@/lib/content/forms";
+import { formInbox, HONEYPOT, type Field, type FormDef } from "@/lib/content/forms";
 import { submitForm } from "@/lib/submit";
 import { cn } from "@/lib/utils";
 
@@ -26,7 +27,7 @@ function validate(fields: Field[], values: Values) {
   return errs;
 }
 
-export default function FormStepper({ def, endpoint }: { def: FormDef; endpoint?: string }) {
+export default function FormStepper({ def }: { def: FormDef }) {
   const lenis = useLenis();
   const top = useRef<HTMLDivElement>(null);
   const [step, setStep] = useState(0);
@@ -65,7 +66,7 @@ export default function FormStepper({ def, endpoint }: { def: FormDef; endpoint?
     setStatus("sending");
     const data = Object.fromEntries(Object.entries(values).map(([k, v]) => [k, Array.isArray(v) ? v.join(", ") : v]));
     try {
-      const r = await submitForm(endpoint, data, { to: def.to, subject: `${def.subject} — ${data.release_title || data.track_name || data.artist_name || data.main_artist || ""}`, labels });
+      const r = await submitForm(def.kind, data, { subject: `${def.subject} — ${data.release_title || data.track_name || data.artist_name || data.main_artist || ""}`, labels });
       setStatus(r.via === "api" ? "done" : "mail");
     } catch (e) {
       setError(e instanceof Error ? e.message : "Something went wrong.");
@@ -83,7 +84,7 @@ export default function FormStepper({ def, endpoint }: { def: FormDef; endpoint?
         <p className="t-body max-w-[52ch] text-muted">
           {status === "done"
             ? `Thanks — the Nightfall team has your ${def.title.toLowerCase()}. We'll be in touch at the email you provided.`
-            : `We've drafted an email with everything you entered — just hit send. If nothing opened, email ${def.to}.`}
+            : `We've drafted an email with everything you entered — just hit send. If nothing opened, email ${formInbox[def.kind]}.`}
         </p>
       </div>
     );
@@ -91,6 +92,7 @@ export default function FormStepper({ def, endpoint }: { def: FormDef; endpoint?
 
   return (
     <div ref={top} className="grid-12 gap-y-10">
+      <Honeypot value={String(values[HONEYPOT] ?? "")} onChange={(v) => set(HONEYPOT, v)} />
       {/* step rail */}
       <aside className="col-span-12 md:col-span-3">
         <div className="flex flex-col gap-4 md:sticky md:top-[calc(var(--header-h)+24px)]">

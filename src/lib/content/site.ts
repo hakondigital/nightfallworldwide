@@ -23,8 +23,8 @@ export const site = {
   // Burleigh Heads — used for the live clock + nightfall countdown.
   geo: { lat: -28.0906, lon: 153.4498, tz: "Australia/Brisbane", label: "28.09°S 153.45°E" },
 
-  // studio@ takes bookings (sessions, mixes, WhiteWall); admin@ takes
-  // questions about contracts and how things work.
+  // studio@ takes bookings (sessions, WhiteWall); admin@ takes mix & master
+  // orders and enquiries, plus questions about contracts and how things work.
   email: {
     admin: "admin@nightfallworldwide.com",
     studio: "studio@nightfallworldwide.com",
