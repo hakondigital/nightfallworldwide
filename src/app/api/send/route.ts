@@ -25,7 +25,10 @@ const FONT = "-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif";
 
 export async function POST(request: Request) {
   const apiKey = process.env.RESEND_API_KEY;
-  if (!apiKey) return reply(503, { error: "Email sending isn’t set up on this site yet." });
+  if (!apiKey) {
+    console.warn("RESEND_API_KEY is not set — form fell back to mailto");
+    return reply(503, { error: "Email sending isn’t set up on this site yet." });
+  }
 
   const raw = await request.text();
   if (raw.length > MAX_BODY) return reply(413, { error: "That’s too much text for one message — please shorten it." });
