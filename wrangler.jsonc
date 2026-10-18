@@ -10,7 +10,12 @@
   },
   "observability": {
     "enabled": true
-  }
+  },
+  // Variables set in the Cloudflare dashboard survive deploys from the repo.
+  // Without this, every Workers Builds deploy resets plain-text variables to
+  // the (empty) list here. Secrets are never touched either way — RESEND_API_KEY
+  // belongs in the dashboard as type Secret, never in this file.
+  "keep_vars": true
   // When the domain moves off Squarespace, add:
   // "routes": [
   //   { "pattern": "nightfallworldwide.com", "custom_domain": true },
