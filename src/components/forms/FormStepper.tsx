@@ -64,7 +64,17 @@ export default function FormStepper({ def }: { def: FormDef }) {
 
   const send = async () => {
     setStatus("sending");
-    const data = Object.fromEntries(Object.entries(values).map(([k, v]) => [k, Array.isArray(v) ? v.join(", ") : v]));
+    // Every question in form order, blanks included, so the email reads like the form.
+    const data: Record<string, string> = Object.fromEntries(
+      steps.flatMap((s) =>
+        s.fields.map((f) => {
+          const v = values[f.name];
+          return [f.name, Array.isArray(v) ? v.join(", ") : (v ?? "")];
+        }),
+      ),
+    );
+    const hp = values[HONEYPOT];
+    if (typeof hp === "string" && hp) data[HONEYPOT] = hp;
     try {
       const r = await submitForm(def.kind, data, { subject: `${def.subject} — ${data.release_title || data.track_name || data.artist_name || data.main_artist || ""}`, labels });
       setStatus(r.via === "api" ? "done" : "mail");

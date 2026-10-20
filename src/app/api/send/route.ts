@@ -49,13 +49,17 @@ export async function POST(request: Request) {
   for (const [key, v] of Object.entries(payload.data).slice(0, MAX_FIELDS)) {
     if (typeof v !== "string") continue;
     const value = multiLine(v, MAX_VALUE);
-    if (!value) continue;
-    if (key === HONEYPOT) trapped = true;
-    else rows.push([key, value]);
+    if (key === HONEYPOT) {
+      if (value) trapped = true;
+      continue;
+    }
+    // A blank answer stays in when the form labelled the question, so the email lists every question asked.
+    if (!value && !(key in labels)) continue;
+    rows.push([key, value]);
   }
   // The honeypot is a field people never see. Bots fill it in — thank them and drop it.
   if (trapped) return reply(200, { ok: true });
-  if (!rows.length) return reply(400, { error: "Nothing to send." });
+  if (!rows.some(([, v]) => v)) return reply(400, { error: "Nothing to send." });
 
   const label = (key: string) => {
     const l = labels[key];
@@ -67,14 +71,14 @@ export async function POST(request: Request) {
   const to = process.env.RESEND_TO_OVERRIDE || formInbox[kind];
   const host = site.url.replace(/^https?:\/\//, "");
 
-  const text = rows.map(([k, v]) => `${label(k)}:\n${v}`).join("\n\n") + `\n\n—\nSent from the ${kind} form on ${host}`;
+  const text = rows.map(([k, v]) => `${label(k)}:\n${v || "—"}`).join("\n\n") + `\n\n—\nSent from the ${kind} form on ${host}`;
   const html =
     `<table style="border-collapse:collapse;font:15px/1.5 ${FONT}">` +
     rows
       .map(
         ([k, v]) =>
           `<tr><td style="padding:6px 20px 6px 0;color:#777;vertical-align:top;white-space:nowrap">${escapeHtml(label(k))}</td>` +
-          `<td style="padding:6px 0;white-space:pre-wrap">${escapeHtml(v)}</td></tr>`,
+          `<td style="padding:6px 0;white-space:pre-wrap">${escapeHtml(v) || '<span style="color:#bbb">—</span>'}</td></tr>`,
       )
       .join("") +
     `</table><p style="margin-top:28px;font:13px ${FONT};color:#999">Sent from the ${kind} form on <a href="${site.url}" style="color:#999">${host}</a></p>`;
