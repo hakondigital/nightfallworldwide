@@ -1,6 +1,6 @@
 "use client";
 
-import { useBooking } from "@/components/booking/Booking";
+import { useBooking, type BookingTab } from "@/components/booking/Booking";
 import { TLink } from "@/components/providers/Transition";
 import { Arrow } from "@/components/ui/Icons";
 import { aud, mixFrom } from "@/lib/content/services";
@@ -11,7 +11,8 @@ type Card = {
   title: string;
   price: string;
   sub: string;
-  primary: { label: string; action: "mix" | "studio" | string };
+  /** action: a booking-drawer tab, or a path / URL */
+  primary: { label: string; action: BookingTab | string; topic?: string };
   secondary: { label: string; href: string };
 };
 
@@ -37,7 +38,7 @@ const CARDS: Card[] = [
     title: "Distribution",
     price: "You keep 80%",
     sub: "No upfront fees, no lock-in, editorial playlist pitching.",
-    primary: { label: "Join the label", action: "/distribution/upload" },
+    primary: { label: "Join the label", action: "enquire", topic: "Distribution" },
     secondary: { label: "How it works", href: "/distribution" },
   },
   {
@@ -58,8 +59,8 @@ export default function ServiceCards() {
       {CARDS.map((c) => {
         const primaryClass = "group t-wide-s flex items-center justify-between gap-3 bg-fg px-4 py-3 text-bg transition-colors hover:bg-rec sm:py-3.5";
         const primary =
-          c.primary.action === "mix" || c.primary.action === "studio" ? (
-            <button onClick={() => booking.open(c.primary.action as "mix" | "studio")} className={primaryClass}>
+          c.primary.action === "mix" || c.primary.action === "studio" || c.primary.action === "enquire" ? (
+            <button onClick={() => booking.open(c.primary.action as BookingTab, { topic: c.primary.topic })} className={primaryClass}>
               {c.primary.label} <Arrow className="transition-transform duration-500 group-hover:rotate-45" />
             </button>
           ) : (

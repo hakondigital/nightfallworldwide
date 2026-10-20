@@ -11,7 +11,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ["/studio", 0.9],
     ["/mixing-mastering", 0.9],
     ["/distribution", 0.8],
-    ["/distribution/upload", 0.6],
+    // /uploadform and /pitching are deliberately left out — unlisted, noindex.
     ["/advertising-film", 0.8],
     ["/whitewall", 0.8],
     ["/team", 0.7],

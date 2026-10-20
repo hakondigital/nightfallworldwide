@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import ArtistCard from "@/components/music/ArtistCard";
 import { TLink } from "@/components/providers/Transition";
 import Accordion from "@/components/ui/Accordion";
+import BookButton from "@/components/ui/BookButton";
 import { Arrow } from "@/components/ui/Icons";
 import PageHero, { HeroAction, Rule } from "@/components/ui/PageHero";
 import Rail from "@/components/ui/Rail";
@@ -19,7 +20,7 @@ export const metadata: Metadata = {
 };
 
 const STEPS: { n: string; t: string; d: string; href?: string; cta?: string }[] = [
-  { n: "01", t: "Join & upload", d: "Register with the label and send your release details. Masters and artwork go to our distribution inbox.", href: "/distribution/upload", cta: "Join the label" },
+  { n: "01", t: "Join & upload", d: "Get in touch and we send you the label’s release form. Masters and artwork go to our distribution inbox." },
   { n: "02", t: "Get pitched", d: "Once you’re on the label we send you our playlist pitching form. Allow at least 6 weeks before release so we can pitch to Spotify and other DSP editors." },
   { n: "03", t: "Track & get paid", d: "Analytics, releases and royalty payouts via Wise — all in the artist portal.", href: site.links.distroPortal, cta: "Artist login ↗" },
 ];
@@ -38,9 +39,9 @@ export default function DistributionPage() {
         lede={distribution.lede}
         aside={
           <HeroAction label="You keep" value="80% of royalties" note="No upfront fees · no lock-in">
-            <TLink href="/distribution/upload" className={`${btn} bg-fg text-bg transition-colors hover:bg-rec`}>
-              Join the label <Arrow className="transition-transform duration-500 group-hover:rotate-45" />
-            </TLink>
+            <BookButton tab="enquire" opts={{ topic: "Distribution" }}>
+              Join the label
+            </BookButton>
             <a href={site.links.distroPortal} target="_blank" rel="noreferrer" className={`${btn} border border-line hover:border-fg`}>
               Artist login <Arrow className="transition-transform duration-500 group-hover:rotate-45" />
             </a>

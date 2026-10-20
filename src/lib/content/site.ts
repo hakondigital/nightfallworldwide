@@ -105,5 +105,7 @@ export const businessFor = (path: string): Business["key"] | null =>
 export const allRoutes: NavItem[] = [
   ...primaryNav,
   ...musicNav.filter((n) => !n.external),
-  { label: "Upload a release", href: "/distribution/upload", code: "01.3" },
+  // Unlisted pages Nightfall sends artists by link — labelled here for the page transition only.
+  { label: "Upload a release", href: "/uploadform", code: "01.3" },
+  { label: "Playlist pitching", href: "/pitching", code: "01.3" },
 ];

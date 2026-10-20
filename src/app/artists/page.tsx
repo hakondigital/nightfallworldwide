@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { TLink } from "@/components/providers/Transition";
 import BookButton from "@/components/ui/BookButton";
-import { Arrow, SpotifyGlyph } from "@/components/ui/Icons";
+import { SpotifyGlyph } from "@/components/ui/Icons";
 import Media from "@/components/ui/Media";
 import PageHero, { Rule, Spec } from "@/components/ui/PageHero";
 import { Stagger } from "@/components/ui/Reveal";
@@ -97,9 +97,9 @@ export default function ArtistsPage() {
             <p className="t-body text-muted">Join Nightfall Distribution — no upfront fees, you keep 80%, no lock-in — or book a session with the team.</p>
           </div>
           <div className="flex flex-wrap gap-3">
-            <TLink href="/distribution/upload" className="group t-wide-s flex items-center gap-3 bg-fg px-5 py-4 text-bg transition-colors hover:bg-rec">
-              Join the label <Arrow className="transition-transform duration-500 group-hover:rotate-45" />
-            </TLink>
+            <BookButton tab="enquire" opts={{ topic: "Distribution" }}>
+              Join the label
+            </BookButton>
             <BookButton variant="line">Book a session</BookButton>
           </div>
         </div>

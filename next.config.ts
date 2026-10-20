@@ -8,8 +8,8 @@ const legacy: [string, string][] = [
   ["/feesandlicences", "/rates"],
   ["/advertisingandfilm", "/advertising-film"],
   ["/thearchive", "/distribution"],
-  ["/uploadform", "/distribution/upload"],
-  ["/pitching", "/distribution"],
+  // /uploadform and /pitching are real pages again (unlisted — the links Nightfall sends artists).
+  ["/distribution/upload", "/uploadform"],
   ["/prerelease", "/music/kily-safari"],
   ["/mezmure", "/music/mezmure"],
   ["/mezmure-1", "/music/mezmure"],

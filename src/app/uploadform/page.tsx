@@ -6,10 +6,13 @@ import { uploadForm } from "@/lib/content/forms";
 import { fileSpecs } from "@/lib/content/services";
 import { site } from "@/lib/content/site";
 
+// Unlisted — same URL as the old site. Nightfall sends artists this link once
+// they're on the label; it isn't in the nav, the sitemap or search results.
 export const metadata: Metadata = {
-  title: "Join the label — upload a release",
-  description: "Join Nightfall Distribution and submit your release — title, credits, splits and release date.",
-  alternates: { canonical: "/distribution/upload" },
+  title: "Upload a release",
+  description: "Submit your release to Nightfall Distribution — title, credits, splits and release date.",
+  robots: { index: false, follow: false },
+  alternates: { canonical: "/uploadform" },
 };
 
 export default function UploadPage() {
@@ -17,12 +20,12 @@ export default function UploadPage() {
     <>
       <PageHero
         code="01.3"
-        kicker="Distribution — Join the label"
+        kicker="Distribution — Release form"
         meta="Nightfall Distribution"
-        title="Join the label"
+        title="Upload a release"
         lede={
           <>
-            Register with Nightfall Distribution and send your release details. Email your <strong className="font-semibold text-fg">master</strong> and{" "}
+            Send us your release details. Email your <strong className="font-semibold text-fg">master</strong> and{" "}
             <strong className="font-semibold text-fg">artwork</strong> to {site.email.distribution}, exported to the specs on the right.
           </>
         }

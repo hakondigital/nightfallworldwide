@@ -83,7 +83,7 @@ export default function FormStepper({ def }: { def: FormDef }) {
         <p className="t-xl">{status === "done" ? "Locked in." : "One last step."}</p>
         <p className="t-body max-w-[52ch] text-muted">
           {status === "done"
-            ? `Thanks — the Nightfall team has your ${def.title.toLowerCase()}. We'll be in touch at the email you provided.`
+            ? (def.thanks ?? `Thanks — the Nightfall team has your ${def.title.toLowerCase()}. We'll be in touch at the email you provided.`)
             : `We've drafted an email with everything you entered — just hit send. If nothing opened, email ${formInbox[def.kind]}.`}
         </p>
       </div>
