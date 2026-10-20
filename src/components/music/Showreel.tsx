@@ -22,6 +22,8 @@ export default function Showreel({ base, poster, title, caption, file }: Props) 
   const root = useRef<HTMLElement>(null);
   const video = useRef<HTMLVideoElement | null>(null);
   const tc = useRef<HTMLSpanElement>(null);
+  const left = useRef<HTMLSpanElement>(null);
+  const right = useRef<HTMLSpanElement>(null);
   const [sound, setSound] = useState(false);
 
   const onTime = useCallback((t: number) => {
@@ -44,8 +46,12 @@ export default function Showreel({ base, poster, title, caption, file }: Props) 
           }
           const tl = gsap.timeline({
             defaults: { ease: "none" },
-            scrollTrigger: { trigger: el, start: "top top", end: "bottom bottom", scrub: 0.8 },
+            // invalidateOnRefresh: the word travel below is measured from the viewport, so recompute on resize
+            scrollTrigger: { trigger: el, start: "top top", end: "bottom bottom", scrub: 0.8, invalidateOnRefresh: true },
           });
+          // The title starts as one phrase over the frame. As the frame opens the two
+          // words fly apart — each clears its own edge of the viewport — and fade out.
+          const travel = (word: HTMLElement | null) => window.innerWidth / 2 + (word?.offsetWidth ?? 0);
           tl.fromTo(
             q("[data-frame]"),
             // start as a generous framed video, not a thumbnail — on big screens the old
@@ -54,8 +60,9 @@ export default function Showreel({ base, poster, title, caption, file }: Props) 
             { clipPath: "inset(0% 0% 0% 0% round 0px)", duration: 0.6 },
             0,
           )
-            .fromTo(q("[data-left]"), { xPercent: 0 }, { xPercent: -120, duration: 0.6 }, 0)
-            .fromTo(q("[data-right]"), { xPercent: 0 }, { xPercent: 120, duration: 0.6 }, 0)
+            .fromTo(left.current, { x: 0 }, { x: () => -travel(left.current), duration: 0.6 }, 0)
+            .fromTo(right.current, { x: 0 }, { x: () => travel(right.current), duration: 0.6 }, 0)
+            .fromTo([left.current, right.current], { autoAlpha: 1 }, { autoAlpha: 0, duration: 0.3 }, 0.25)
             .fromTo(q("[data-video]"), { scale: 1.25 }, { scale: 1, duration: 0.6 }, 0)
             .fromTo(q("[data-hud]"), { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.15 }, 0.5)
             .to({}, { duration: 0.2 });
@@ -83,14 +90,10 @@ export default function Showreel({ base, poster, title, caption, file }: Props) 
           <div className="absolute inset-0 bg-black/25" />
         </div>
 
-        {/* words either side of the frame */}
-        <div className="pointer-events-none absolute inset-0 flex items-center justify-between">
-          <span data-left className="t-xl pl-(--pad) text-paper" style={{ fontSize: "clamp(2.8rem, 6.4vw, 7rem)" }}>
-            {title[0]}
-          </span>
-          <span data-right className="t-xl pr-(--pad) text-right text-paper" style={{ fontSize: "clamp(2.8rem, 6.4vw, 7rem)" }}>
-            {title[1]}
-          </span>
+        {/* the title, one phrase over the frame until the scroll pulls it apart */}
+        <div className="t-xl pointer-events-none absolute inset-0 flex items-center justify-center gap-[0.28em] whitespace-nowrap text-paper" style={{ fontSize: "clamp(2.8rem, 6.4vw, 7rem)" }}>
+          <span ref={left}>{title[0]}</span>
+          <span ref={right}>{title[1]}</span>
         </div>
 
         {/* HUD */}
