@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-13T08:50:23.329Z",
+ "generatedAt": "2026-10-23T11:35:35.072Z",
  "label": "Nightfall Worldwide",
  "releases": [
+  {
+   "id": 1128037401,
+   "title": "Say My Name",
+   "artists": [
+    "Demboe"
+   ],
+   "artistId": 104720212,
+   "releaseDate": "2026-10-23",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "upc": "9362531753949",
+   "link": "https://www.deezer.com/album/1128037401",
+   "spotify": null,
+   "spotifyArtist": null,
+   "apple": "https://music.apple.com/au/album/say-my-name-single/6825765991?uo=4",
+   "cover": "/media/releases/1128037401.jpg"
+  },
   {
    "id": 1114126512,
    "title": "OFF WHITE",
@@ -127,24 +145,6 @@
    "spotifyArtist": null,
    "apple": "https://music.apple.com/au/album/body-on-me-single/6816058928?uo=4",
    "cover": "/media/releases/1105889922.jpg"
-  },
-  {
-   "id": 1103652602,
-   "title": "Right Now",
-   "artists": [
-    "Aru Motoki"
-   ],
-   "artistId": 280444261,
-   "releaseDate": "2026-10-01",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": false,
-   "upc": "9362531693917",
-   "link": "https://www.deezer.com/album/1103652602",
-   "spotify": null,
-   "spotifyArtist": null,
-   "apple": "https://music.apple.com/au/album/right-now-single/6815650263?uo=4",
-   "cover": "/media/releases/1103652602.jpg"
   }
  ]
 }
