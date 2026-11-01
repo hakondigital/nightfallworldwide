@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-10-23T11:35:35.072Z",
+ "generatedAt": "2026-11-01T13:18:08.780Z",
  "label": "Nightfall Worldwide",
  "releases": [
+  {
+   "id": 1125308332,
+   "title": "I CAN’T FORGET YOU",
+   "artists": [
+    "Aru Motoki"
+   ],
+   "artistId": 280444261,
+   "releaseDate": "2026-11-01",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "upc": "9362531747078",
+   "link": "https://www.deezer.com/album/1125308332",
+   "spotify": null,
+   "spotifyArtist": null,
+   "apple": "https://music.apple.com/au/album/i-cant-forget-you-single/6824483504?uo=4",
+   "cover": "/media/releases/1125308332.jpg"
+  },
   {
    "id": 1128037401,
    "title": "Say My Name",
@@ -127,24 +145,6 @@
    "spotifyArtist": null,
    "apple": "https://music.apple.com/au/album/blick-single/6816944088?uo=4",
    "cover": "/media/releases/1108503632.jpg"
-  },
-  {
-   "id": 1105889922,
-   "title": "Body On Me",
-   "artists": [
-    "Detchi"
-   ],
-   "artistId": 167395457,
-   "releaseDate": "2026-10-02",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": true,
-   "upc": "9362531696079",
-   "link": "https://www.deezer.com/album/1105889922",
-   "spotify": null,
-   "spotifyArtist": null,
-   "apple": "https://music.apple.com/au/album/body-on-me-single/6816058928?uo=4",
-   "cover": "/media/releases/1105889922.jpg"
   }
  ]
 }

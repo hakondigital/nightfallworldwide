@@ -3115,6 +3115,24 @@
    "isOurs": true,
    "apple": "https://music.apple.com/au/album/hazel-single/6819265997?uo=4"
   },
+  "1125308332": {
+   "id": 1125308332,
+   "title": "I CAN’T FORGET YOU",
+   "artists": [
+    "Aru Motoki"
+   ],
+   "artistId": 280444261,
+   "releaseDate": "2026-11-01",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531747078",
+   "link": "https://www.deezer.com/album/1125308332",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/0e928925064af9e730ed72d2f59402dc/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/i-cant-forget-you-single/6824483504?uo=4"
+  },
   "1128037401": {
    "id": 1128037401,
    "title": "Say My Name",
