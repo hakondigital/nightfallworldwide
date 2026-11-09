@@ -3150,6 +3150,42 @@
    "cover": "https://cdn-images.dzcdn.net/images/cover/5ceab5ff3e9905b1ec000e3da80db392/500x500-000000-80-0-0.jpg",
    "isOurs": true,
    "apple": "https://music.apple.com/au/album/say-my-name-single/6825765991?uo=4"
+  },
+  "1137899591": {
+   "id": 1137899591,
+   "title": "STRAIGHT",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-11-06",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531779864",
+   "link": "https://www.deezer.com/album/1137899591",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/681988079944d1a679e0f666789926e2/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/straight-single/6830162104?uo=4"
+  },
+  "1140535791": {
+   "id": 1140535791,
+   "title": "JOHNNY TEST",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-10-30",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531762286",
+   "link": "https://www.deezer.com/album/1140535791",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/95cf78a261339252ed83143fc566a040/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/johnny-test-single/6831596017?uo=4"
   }
  }
 }

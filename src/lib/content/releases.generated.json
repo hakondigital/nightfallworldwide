@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-11-01T13:18:08.780Z",
+ "generatedAt": "2026-11-09T22:18:20.488Z",
  "label": "Nightfall Worldwide",
  "releases": [
+  {
+   "id": 1137899591,
+   "title": "STRAIGHT",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-11-06",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531779864",
+   "link": "https://www.deezer.com/album/1137899591",
+   "spotify": null,
+   "spotifyArtist": null,
+   "apple": "https://music.apple.com/au/album/straight-single/6830162104?uo=4",
+   "cover": "/media/releases/1137899591.jpg"
+  },
   {
    "id": 1125308332,
    "title": "I CAN’T FORGET YOU",
@@ -19,6 +37,24 @@
    "spotifyArtist": null,
    "apple": "https://music.apple.com/au/album/i-cant-forget-you-single/6824483504?uo=4",
    "cover": "/media/releases/1125308332.jpg"
+  },
+  {
+   "id": 1140535791,
+   "title": "JOHNNY TEST",
+   "artists": [
+    "Sino!"
+   ],
+   "artistId": 199201687,
+   "releaseDate": "2026-10-30",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "upc": "9362531762286",
+   "link": "https://www.deezer.com/album/1140535791",
+   "spotify": null,
+   "spotifyArtist": null,
+   "apple": "https://music.apple.com/au/album/johnny-test-single/6831596017?uo=4",
+   "cover": "/media/releases/1140535791.jpg"
   },
   {
    "id": 1128037401,
@@ -109,42 +145,6 @@
    "spotifyArtist": null,
    "apple": "https://music.apple.com/au/album/hazel-single/6819265997?uo=4",
    "cover": "/media/releases/1114201092.jpg"
-  },
-  {
-   "id": 1111145152,
-   "title": "ADDING UP",
-   "artists": [
-    "Sino!"
-   ],
-   "artistId": 199201687,
-   "releaseDate": "2026-10-02",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": true,
-   "upc": "9362531708932",
-   "link": "https://www.deezer.com/album/1111145152",
-   "spotify": null,
-   "spotifyArtist": null,
-   "apple": "https://music.apple.com/au/album/adding-up-single/6818127507?uo=4",
-   "cover": "/media/releases/1111145152.jpg"
-  },
-  {
-   "id": 1108503632,
-   "title": "Blick",
-   "artists": [
-    "Detchi"
-   ],
-   "artistId": 167395457,
-   "releaseDate": "2026-10-02",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": true,
-   "upc": "9362531701629",
-   "link": "https://www.deezer.com/album/1108503632",
-   "spotify": null,
-   "spotifyArtist": null,
-   "apple": "https://music.apple.com/au/album/blick-single/6816944088?uo=4",
-   "cover": "/media/releases/1108503632.jpg"
   }
  ]
 }
