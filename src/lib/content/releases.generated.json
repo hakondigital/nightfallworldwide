@@ -1,7 +1,26 @@
 {
- "generatedAt": "2026-11-09T22:18:20.488Z",
+ "generatedAt": "2026-11-13T19:39:19.621Z",
  "label": "Nightfall Worldwide",
  "releases": [
+  {
+   "id": 1112047822,
+   "title": "Private Dancer",
+   "artists": [
+    "D3TOX",
+    "Jteazy"
+   ],
+   "artistId": 183063467,
+   "releaseDate": "2026-11-13",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531710805",
+   "link": "https://www.deezer.com/album/1112047822",
+   "spotify": null,
+   "spotifyArtist": null,
+   "apple": "https://music.apple.com/au/album/private-dancer-single/6818504515?uo=4",
+   "cover": "/media/releases/1112047822.jpg"
+  },
   {
    "id": 1137899591,
    "title": "STRAIGHT",
@@ -127,24 +146,6 @@
    "spotifyArtist": null,
    "apple": "https://music.apple.com/au/album/carrion-single/6818523484?uo=4",
    "cover": "/media/releases/1112240372.jpg"
-  },
-  {
-   "id": 1114201092,
-   "title": "Hazel",
-   "artists": [
-    "Tyson"
-   ],
-   "artistId": 499175,
-   "releaseDate": "2026-10-04",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": false,
-   "upc": "9362531711222",
-   "link": "https://www.deezer.com/album/1114201092",
-   "spotify": null,
-   "spotifyArtist": null,
-   "apple": "https://music.apple.com/au/album/hazel-single/6819265997?uo=4",
-   "cover": "/media/releases/1114201092.jpg"
   }
  ]
 }

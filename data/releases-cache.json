@@ -3061,6 +3061,25 @@
    "isOurs": true,
    "apple": "https://music.apple.com/au/album/adding-up-single/6818127507?uo=4"
   },
+  "1112047822": {
+   "id": 1112047822,
+   "title": "Private Dancer",
+   "artists": [
+    "D3TOX",
+    "Jteazy"
+   ],
+   "artistId": 183063467,
+   "releaseDate": "2026-11-13",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531710805",
+   "link": "https://www.deezer.com/album/1112047822",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/88b24e505e73b90d37bf643f0332fa62/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/private-dancer-single/6818504515?uo=4"
+  },
   "1112240372": {
    "id": 1112240372,
    "title": "CARRION",
