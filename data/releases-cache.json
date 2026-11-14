@@ -3205,6 +3205,42 @@
    "cover": "https://cdn-images.dzcdn.net/images/cover/95cf78a261339252ed83143fc566a040/500x500-000000-80-0-0.jpg",
    "isOurs": true,
    "apple": "https://music.apple.com/au/album/johnny-test-single/6831596017?uo=4"
+  },
+  "1143256631": {
+   "id": 1143256631,
+   "title": "BE ON YOUR MIND",
+   "artists": [
+    "Aru Motoki"
+   ],
+   "artistId": 280444261,
+   "releaseDate": "2026-11-14",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531795611",
+   "link": "https://www.deezer.com/album/1143256631",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/f7b2478c2e51c9d089257169031d4472/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/be-on-your-mind-single/6832954642?uo=4"
+  },
+  "1145855411": {
+   "id": 1145855411,
+   "title": "5 guys",
+   "artists": [
+    "Jords"
+   ],
+   "artistId": 393291441,
+   "releaseDate": "2026-11-13",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531798070",
+   "link": "https://www.deezer.com/album/1145855411",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/2cf1979fc7b9b603c49c20f4743853d2/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/5-guys-single/6834287062?uo=4"
   }
  }
 }

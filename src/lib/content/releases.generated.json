@@ -1,7 +1,43 @@
 {
- "generatedAt": "2026-11-13T19:39:19.621Z",
+ "generatedAt": "2026-11-14T17:58:37.202Z",
  "label": "Nightfall Worldwide",
  "releases": [
+  {
+   "id": 1143256631,
+   "title": "BE ON YOUR MIND",
+   "artists": [
+    "Aru Motoki"
+   ],
+   "artistId": 280444261,
+   "releaseDate": "2026-11-14",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "upc": "9362531795611",
+   "link": "https://www.deezer.com/album/1143256631",
+   "spotify": null,
+   "spotifyArtist": null,
+   "apple": "https://music.apple.com/au/album/be-on-your-mind-single/6832954642?uo=4",
+   "cover": "/media/releases/1143256631.jpg"
+  },
+  {
+   "id": 1145855411,
+   "title": "5 guys",
+   "artists": [
+    "Jords"
+   ],
+   "artistId": 393291441,
+   "releaseDate": "2026-11-13",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531798070",
+   "link": "https://www.deezer.com/album/1145855411",
+   "spotify": null,
+   "spotifyArtist": null,
+   "apple": "https://music.apple.com/au/album/5-guys-single/6834287062?uo=4",
+   "cover": "/media/releases/1145855411.jpg"
+  },
   {
    "id": 1112047822,
    "title": "Private Dancer",
@@ -110,42 +146,6 @@
    "spotifyArtist": null,
    "apple": "https://music.apple.com/au/album/off-white-single/6819258818?uo=4",
    "cover": "/media/releases/1114126512.jpg"
-  },
-  {
-   "id": 1076494622,
-   "title": "One round",
-   "artists": [
-    "D3TOX"
-   ],
-   "artistId": 183063467,
-   "releaseDate": "2026-10-09",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": true,
-   "upc": "9362531663439",
-   "link": "https://www.deezer.com/album/1076494622",
-   "spotify": null,
-   "spotifyArtist": null,
-   "apple": "https://music.apple.com/au/album/one-round-single/6811050158?uo=4",
-   "cover": "/media/releases/1076494622.jpg"
-  },
-  {
-   "id": 1112240372,
-   "title": "CARRION",
-   "artists": [
-    "Ribby247"
-   ],
-   "artistId": 130861562,
-   "releaseDate": "2026-10-07",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": true,
-   "upc": "9362531687763",
-   "link": "https://www.deezer.com/album/1112240372",
-   "spotify": null,
-   "spotifyArtist": null,
-   "apple": "https://music.apple.com/au/album/carrion-single/6818523484?uo=4",
-   "cover": "/media/releases/1112240372.jpg"
   }
  ]
 }
