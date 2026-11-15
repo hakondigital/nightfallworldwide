@@ -1,7 +1,25 @@
 {
- "generatedAt": "2026-11-14T17:58:37.202Z",
+ "generatedAt": "2026-11-15T18:48:58.833Z",
  "label": "Nightfall Worldwide",
  "releases": [
+  {
+   "id": 1146183641,
+   "title": "Erased",
+   "artists": [
+    "TYSON"
+   ],
+   "artistId": 499175,
+   "releaseDate": "2026-11-15",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "upc": "9362531802180",
+   "link": "https://www.deezer.com/album/1146183641",
+   "spotify": null,
+   "spotifyArtist": null,
+   "apple": "https://music.apple.com/au/album/erased-single/6834377321?uo=4",
+   "cover": "/media/releases/1146183641.jpg"
+  },
   {
    "id": 1143256631,
    "title": "BE ON YOUR MIND",
@@ -128,24 +146,6 @@
    "spotifyArtist": null,
    "apple": "https://music.apple.com/au/album/say-my-name-single/6825765991?uo=4",
    "cover": "/media/releases/1128037401.jpg"
-  },
-  {
-   "id": 1114126512,
-   "title": "OFF WHITE",
-   "artists": [
-    "Detchi"
-   ],
-   "artistId": 167395457,
-   "releaseDate": "2026-10-09",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": true,
-   "upc": "9362531713653",
-   "link": "https://www.deezer.com/album/1114126512",
-   "spotify": null,
-   "spotifyArtist": null,
-   "apple": "https://music.apple.com/au/album/off-white-single/6819258818?uo=4",
-   "cover": "/media/releases/1114126512.jpg"
   }
  ]
 }

@@ -3241,6 +3241,24 @@
    "cover": "https://cdn-images.dzcdn.net/images/cover/2cf1979fc7b9b603c49c20f4743853d2/500x500-000000-80-0-0.jpg",
    "isOurs": true,
    "apple": "https://music.apple.com/au/album/5-guys-single/6834287062?uo=4"
+  },
+  "1146183641": {
+   "id": 1146183641,
+   "title": "Erased",
+   "artists": [
+    "TYSON"
+   ],
+   "artistId": 499175,
+   "releaseDate": "2026-11-15",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": false,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531802180",
+   "link": "https://www.deezer.com/album/1146183641",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/1476a831c702ce5fb4f174532c6c0864/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/erased-single/6834377321?uo=4"
   }
  }
 }
