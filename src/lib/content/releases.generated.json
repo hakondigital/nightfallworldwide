@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T18:48:58.833Z",
+ "generatedAt": "2026-11-16T21:58:55.045Z",
  "label": "Nightfall Worldwide",
  "releases": [
   {
@@ -19,6 +19,24 @@
    "spotifyArtist": null,
    "apple": "https://music.apple.com/au/album/erased-single/6834377321?uo=4",
    "cover": "/media/releases/1146183641.jpg"
+  },
+  {
+   "id": 1146108011,
+   "title": "written all over you",
+   "artists": [
+    "Cameryn"
+   ],
+   "artistId": 11499108,
+   "releaseDate": "2026-11-15",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "upc": "9362531798155",
+   "link": "https://www.deezer.com/album/1146108011",
+   "spotify": null,
+   "spotifyArtist": null,
+   "apple": "https://music.apple.com/au/album/written-all-over-you-single/6834370118?uo=4",
+   "cover": "/media/releases/1146108011.jpg"
   },
   {
    "id": 1143256631,
@@ -128,24 +146,6 @@
    "spotifyArtist": null,
    "apple": "https://music.apple.com/au/album/johnny-test-single/6831596017?uo=4",
    "cover": "/media/releases/1140535791.jpg"
-  },
-  {
-   "id": 1128037401,
-   "title": "Say My Name",
-   "artists": [
-    "Demboe"
-   ],
-   "artistId": 104720212,
-   "releaseDate": "2026-10-23",
-   "recordType": "single",
-   "tracks": 1,
-   "explicit": false,
-   "upc": "9362531753949",
-   "link": "https://www.deezer.com/album/1128037401",
-   "spotify": null,
-   "spotifyArtist": null,
-   "apple": "https://music.apple.com/au/album/say-my-name-single/6825765991?uo=4",
-   "cover": "/media/releases/1128037401.jpg"
   }
  ]
 }

@@ -3242,6 +3242,24 @@
    "isOurs": true,
    "apple": "https://music.apple.com/au/album/5-guys-single/6834287062?uo=4"
   },
+  "1146108011": {
+   "id": 1146108011,
+   "title": "written all over you",
+   "artists": [
+    "Cameryn"
+   ],
+   "artistId": 11499108,
+   "releaseDate": "2026-11-15",
+   "recordType": "single",
+   "tracks": 1,
+   "explicit": true,
+   "label": "Nightfall Worldwide",
+   "upc": "9362531798155",
+   "link": "https://www.deezer.com/album/1146108011",
+   "cover": "https://cdn-images.dzcdn.net/images/cover/c83e64b1a0094bfd5a3248d1300e37c2/500x500-000000-80-0-0.jpg",
+   "isOurs": true,
+   "apple": "https://music.apple.com/au/album/written-all-over-you-single/6834370118?uo=4"
+  },
   "1146183641": {
    "id": 1146183641,
    "title": "Erased",
